@@ -1,0 +1,364 @@
+{
+  "info": {
+    "name": "Clean Dark - Wallpaper Edition",
+    "authors": [
+      {
+        "name": "Satoru",
+        "discord_id": "135913674538745856",
+        "github_username": "Satoru8",
+        "url": "http://discord.gg/fjvwb95"
+      }
+    ],
+    "version": "2.0a",
+    "description": "Simple & clean dark theme, with a wallpaper & transparent menus. User settings available.\n\nSupport Server: http://discord.gg/fjvwb95",
+    "icon": "Assets/icon.svg",
+    "icon_type": "image/svg+xml",
+    "type": "sass"
+  },
+  "main": "index.scss",
+  "defaultConfig": [
+    {
+      "category": "Main Settings",
+      "type": "drawer",
+      "settings": [
+        {
+          "id": "light",
+          "type": "colour",
+          "value": "rgba(0, 0, 0, 0.5)",
+          "text": "Brightness/Colour",
+          "hint": ""
+        },
+        {
+          "id": "mc",
+          "type": "colour",
+          "value": "rgba(0, 208, 255, 0.8)",
+          "text": "Main Colour",
+          "hint": ""
+        },
+        {
+          "id": "sc",
+          "type": "colour",
+          "value": "rgba(0, 208, 255, 0.8)",
+          "text": "Accent Colour",
+          "hint": ""
+        },
+        {
+          "id": "sb",
+          "type": "colour",
+          "value": "rgba(53, 149, 255, .3)",
+          "text": "Scrollbar Colour",
+          "hint": ""
+        },
+        {
+          "id": "border",
+          "type": "colour",
+          "value": "rgba(16, 101, 186, 0.4)",
+          "text": "Borders Colour",
+          "hint": ""
+        },
+        {
+          "id": "textColour",
+          "type": "colour",
+          "value": "#ccc",
+          "text": "Chat text",
+          "hint": ""
+        },
+        {
+          "id": "font",
+          "type": "text",
+          "value": "Whitney,Helvetica Neue,Helvetica,Arial,sans-serif",
+          "text": "Font",
+          "hint": ""
+        },
+        {
+          "id": "fontSize",
+          "type": "text",
+          "value": "13px",
+          "text": "Font size",
+          "hint": ""
+        }
+      ]
+    },
+    {
+      "category": "Status Colours",
+      "type": "drawer",
+      "settings": [
+        {
+          "id": "online",
+          "type": "colour",
+          "value": "#43b581",
+          "text": "Online Colour",
+          "hint": ""
+        },
+        {
+          "id": "offline",
+          "type": "colour",
+          "value": "#747f8d",
+          "text": "Offline Colour",
+          "hint": ""
+        },
+        {
+          "id": "idle",
+          "type": "colour",
+          "value": "#faa61a",
+          "text": "Idle Colour",
+          "hint": ""
+        },
+        {
+          "id": "dnd",
+          "type": "colour",
+          "value": "#f04747",
+          "text": "DnD Colour",
+          "hint": ""
+        },
+        {
+          "id": "stream",
+          "type": "colour",
+          "value": "#593695",
+          "text": "Stream Colour",
+          "hint": ""
+        },
+        {
+          "id": "invis",
+          "type": "colour",
+          "value": "#1a36fa",
+          "text": "Invisible Colour",
+          "hint": "Only you can see this."
+        }
+      ]
+    },
+    {
+      "category": "Full Size PFP",
+      "type": "drawer",
+      "settings": [
+        {
+          "id": "profileRadius",
+          "type": "number",
+          "value": "0",
+          "text": "Profile Radius",
+          "hint": "User Popout roundness"
+        },
+        {
+          "id": "rolesRadius",
+          "type": "text",
+          "value": "4px",
+          "text": "Roles Radius",
+          "hint": ""
+        },
+        {
+          "id": "textColor",
+          "type": "colour",
+          "value": "#fff",
+          "text": "Text Colour",
+          "hint": "Name/Nickname, Join/Create Dates"
+        }
+      ]
+    },
+    {
+      "category": "Adddons",
+      "type": "drawer",
+      "settings": [
+        {
+          "id": "glowStatus",
+          "type": "dropdown",
+          "value": "opt1",
+          "text": "Glow Status",
+          "options": [
+            {
+              "id": "opt1",
+              "text": "Enable",
+              "value": "true"
+            },
+            {
+              "id": "opt2",
+              "text": "Disable",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "fullSizePfp",
+          "type": "dropdown",
+          "value": "opt1",
+          "text": "Full Size Pfp",
+          "options": [
+            {
+              "id": "opt1",
+              "text": "Enable",
+              "value": "true"
+            },
+            {
+              "id": "opt2",
+              "text": "Disable",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "fullScreenStatus",
+          "type": "dropdown",
+          "value": "opt1",
+          "text": "Full Screen Status",
+          "options": [
+            {
+              "id": "opt1",
+              "text": "Enable",
+              "value": "true"
+            },
+            {
+              "id": "opt2",
+              "text": "Disable",
+              "value": "false"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "configSchemes": [
+    {
+      "id": "default-scheme",
+      "name": "Reset to default",
+      "icon_path": "Assets/defaultBlank",
+      "settings": [
+        {
+          "category": "Main Settings",
+          "type": "drawer",
+          "settings": [
+            {
+              "id": "light",
+              "type": "colour",
+              "value": "rgba(0, 0, 0, 0.5)",
+              "text": "Brightness/Colour",
+              "hint": ""
+            },
+            {
+              "id": "mc",
+              "type": "colour",
+              "value": "rgba(0, 208, 255, 0.8)",
+              "text": "Main Colour",
+              "hint": ""
+            },
+            {
+              "id": "sc",
+              "type": "colour",
+              "value": "rgba(0, 208, 255, 0.8)",
+              "text": "Accent Colour",
+              "hint": ""
+            },
+            {
+              "id": "sb",
+              "type": "colour",
+              "value": "rgba(53, 149, 255, .3)",
+              "text": "Scrollbar Colour",
+              "hint": ""
+            },
+            {
+              "id": "border",
+              "type": "colour",
+              "value": "rgba(16, 101, 186, 0.4)",
+              "text": "Borders Colour",
+              "hint": ""
+            },
+            {
+              "id": "textColour",
+              "type": "colour",
+              "value": "#ccc",
+              "text": "Chat text",
+              "hint": ""
+            },
+            {
+              "id": "font",
+              "type": "text",
+              "value": "Whitney,Helvetica Neue,Helvetica,Arial,sans-serif",
+              "text": "Font",
+              "hint": ""
+            },
+            {
+              "id": "fontSize",
+              "type": "text",
+              "value": "13px",
+              "text": "Font size",
+              "hint": ""
+            }
+          ]
+        },
+        {
+          "category": "Status Colours",
+          "type": "drawer",
+          "settings": [
+            {
+              "id": "online",
+              "type": "colour",
+              "value": "#43b581",
+              "text": "Online Colour",
+              "hint": ""
+            },
+            {
+              "id": "offline",
+              "type": "colour",
+              "value": "#747f8d",
+              "text": "Offline Colour",
+              "hint": ""
+            },
+            {
+              "id": "idle",
+              "type": "colour",
+              "value": "#faa61a",
+              "text": "Idle Colour",
+              "hint": ""
+            },
+            {
+              "id": "dnd",
+              "type": "colour",
+              "value": "#f04747",
+              "text": "DnD Colour",
+              "hint": ""
+            },
+            {
+              "id": "stream",
+              "type": "colour",
+              "value": "#593695",
+              "text": "Stream Colour",
+              "hint": ""
+            },
+            {
+              "id": "invis",
+              "type": "colour",
+              "value": "#1a36fa",
+              "text": "Invisible Colour",
+              "hint": "Only you can see this."
+            }
+          ]
+        },
+        {
+          "category": "Full Size PFP",
+          "type": "drawer",
+          "settings": [
+            {
+              "id": "profileRadius",
+              "type": "number",
+              "value": "0",
+              "text": "Profile Radius",
+              "hint": "User Popout roundness"
+            },
+            {
+              "id": "rolesRadius",
+              "type": "text",
+              "value": "4px",
+              "text": "Roles Radius",
+              "hint": ""
+            },
+            {
+              "id": "textColor",
+              "type": "colour",
+              "value": "#fff",
+              "text": "Text Colour",
+              "hint": "Name/Nickname, Join/Create Dates"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

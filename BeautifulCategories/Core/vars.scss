@@ -1,0 +1,10 @@
+$LineColour: #fff !default;
+$NameColour: #fff !default;
+$LineSize: 13 !default;
+$beautifulCategories: true !default;
+
+:root {
+    --LineColour: #{$LineColour};
+    --NameColour: #{$NameColour};
+    --LineSize: #{$LineSize}px;
+}

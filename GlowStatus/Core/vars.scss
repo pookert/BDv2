@@ -1,0 +1,21 @@
+$round: 50% !default;
+$sGlow: 5px 2px !default;
+$online: #43b581 !default;
+$offline: #747f8d !default;
+$idle: #faa61a !default;
+$stream: #593695 !default;
+$dnd: #f04747 !default;
+$invis: #1a36fa !default;
+$glowStatus: true !default;
+
+:root {
+    --round: #{$round};
+    --sGlow: #{$sGlow};
+
+    --online: #{$online};
+    --offline: #{$offline};
+    --idle: #{$idle};
+    --stream: #{$stream};
+    --dnd: #{$dnd};
+    --invis: #{$invis};
+}

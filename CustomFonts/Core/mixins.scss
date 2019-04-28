@@ -1,0 +1,5 @@
+@import 'gFonts';
+
+$gFonts: false !default;
+
+@if $gFonts == true {@include gFonts;}

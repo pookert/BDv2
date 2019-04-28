@@ -1,0 +1,45 @@
+
+
+
+$size1: 50px !default;
+$round1: 5% !default;
+$margin1: 0px !default;
+$margin2: 0px !default;
+$compact: 15 !default;
+$customChatAvatars: true !default;
+
+:root {
+
+	--light: hsla(0, 0%, 0%, 0.25); /* Overall brightness. 1= black, 0 = transparent */
+
+	--mc: hsla(296, 100%, 50%, 0.9);	/* Main theme colour. */
+	--sb:hsl(297, 100%, 40%);    /* Scrollbar colour. Change .3 to 0 to hide scrollbar. */
+	--border: hsla(268, 100%, 50%, 0.9);	/* Border colour. Change .3 to 0 to hide borders. */
+    --accent: hsl(297, 100%, 40%);
+
+    --trans:    hsla(0, 0%, 0%, 0.6);                   
+	--trans2: hsla(0, 0%, 0%, 0.9);
+
+	--text: #ccc;	/* Chat text colour */
+	--msg:hsla(0, 0%, 0%, 0.7);					        /* Msg box background darkness */
+	--round: 30%;	/* Icon Roundness. Pfps/Guilds 50% round, 5% Square. */
+
+
+	--homeicon: url('https://imgur.com/a/9gkRrxG'); /* Custom Home Icon. */
+
+    --block: none ;  /* Default - none, Show - contents */
+    
+    --cb: 10px;                                           /*Change chatbox style*/
+	--cbround: 5px;                                      /* Chatbox roundness */
+
+    --bg: rgba(0, 0, 0, .9); /*Status Chooser background */
+
+
+	--size1: #{$size1};
+	--round1: #{$round};
+	--margin1: #{$margin1}; 
+	--margin2: #{$margin2};
+	--compact: #{$compact}px; 
+
+
+}

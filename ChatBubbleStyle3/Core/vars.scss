@@ -1,0 +1,12 @@
+$cbBG3: #00000066 !default;
+$cb3Border: 0px 0px !default;
+$cb3BColour: #000 !default;
+$cb3Round: 15px !default;
+$cbStyle3: true !default;
+
+:root {
+--cbBG3: #{$cbBG3};
+--cb3Border: #{$cb3Border};
+--cb3BColour: #{$cb3BColour};
+--cb3Round: #{$cb3Round};
+}

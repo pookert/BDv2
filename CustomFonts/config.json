@@ -1,0 +1,120 @@
+{
+	"info": {
+		"name": "Custom Fonts",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Custom Fonts.\n\nIf you need any help, click my name below for links.\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "font",
+					"type": "text",
+					"value": "Whitney,Helvetica Neue,Helvetica,Arial,sans-serif",
+					"text": "Font",
+					"hint": "Discord default - Whitney,Helvetica Neue,Helvetica,Arial,sans-serif"
+				},
+				{
+					"id": "fontSize",
+					"type": "text",
+					"value": ".9375rem",
+					"text": "Font Size",
+					"hint": ""
+				},
+				{
+					"id": "textColour",
+					"type": "colour",
+					"value": "#fff",
+					"text": "Chat Text Colour",
+					"hint": ""
+				},
+				{
+					"id": "gFonts",
+					"type": "dropdown",
+					"value": "opt2",
+					"text": "Google Fonts Import",
+					"hint": "Enables google fonts for use.",
+					"options": [
+						{
+							"id": "opt1",
+							"text": "On",
+							"value": "true"
+						},
+						{
+							"id": "opt2",
+							"text": "Off",
+							"value": "false"
+						}
+					]
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to theme default",
+			"icon_path": "Assets/defaultBlank.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "font",
+							"type": "text",
+							"value": "Whitney,Helvetica Neue,Helvetica,Arial,sans-serif",
+							"text": "Font",
+							"hint": "Discord default - Whitney,Helvetica Neue,Helvetica,Arial,sans-serif"
+						},
+						{
+							"id": "fontSize",
+							"type": "text",
+							"value": ".9375rem",
+							"text": "Font Size",
+							"hint": ""
+						},
+						{
+							"id": "textColour",
+							"type": "colour",
+							"value": "#fff",
+							"text": "Chat Text Colour",
+							"hint": ""
+						},
+						{
+							"id": "gFonts",
+							"type": "dropdown",
+							"value": "opt2",
+							"text": "Google Fonts Import",
+							"hint": "Enables google fonts for use.",
+							"options": [
+								{
+									"id": "opt1",
+									"text": "On",
+									"value": "true"
+								},
+								{
+									"id": "opt2",
+									"text": "Off",
+									"value": "false"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

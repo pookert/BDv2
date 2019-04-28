@@ -1,0 +1,93 @@
+#app-mount .toolbar-1t6TWx {
+    margin-right: 90px
+}
+
+#app-mount .children-19S4PO:after {
+    display: none
+}
+
+#app-mount .divider-1GKkV3,
+#app-mount .container-3gCOGc .iconMargin-2Js7V9 {
+    margin: 0px 90px 0px -85px
+}
+
+#app-mount .typeWindows-1za-n7 {
+    height: 0;
+    margin-top: 0
+}
+
+#app-mount .standardSidebarView-3F1I7i {
+    top: 0
+}
+
+#app-mount .wordmark-2iDDfm,
+#app-mount .winButtonMinMax-PBQ2gm svg,
+#app-mount .winButtonClose-1HsbF- svg {
+    display: none
+}
+
+#app-mount .titleBar-AC4pGV:after {
+    background: rgba(255, 0, 0, 0);
+    content: "";
+    position: relative;
+    height: 14px;
+    width: 100vw;
+    top: -15px;
+    left: 85px;
+    -webkit-app-region: drag
+}
+
+#app-mount .titleBar-AC4pGV {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 15px 0 0 0;
+    z-index: 401
+}
+
+#app-mount .winButton-iRh8-Z {
+    left: -6px;
+    top: -3px;
+}
+
+#app-mount .winButtonMinMax-PBQ2gm {
+    opacity: 1;
+    background: url(map-get($fullScreen, url)) center
+}
+
+#app-mount .winButtonMinMax-PBQ2gm:last-child {
+    background: url(map-get($close, url)) center;
+}
+
+#app-mount .winButtonMinMax-PBQ2gm:last-child:hover {
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
+#app-mount .winButtonClose-1HsbF- {
+    opacity: 1;
+    background: url(map-get($min, url)) center;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#app-mount .winButtonClose-1HsbF-:hover {
+    background-color: rgba(240, 71, 71, 0.5)
+}
+
+#app-mount .titleCall-_b9o8P,
+#app-mount .headerBar-UHpsPw {
+    padding-right: 90px
+}
+
+#app-mount .iconBadge-2dji3k {
+    left: 12px
+}
+
+#app-mount .topic-2QX7LI {
+    color: #fff
+}
+
+#app-mount .title-3qD0b- .flex-1xMQg5.horizontal-1ae9ci,
+#app-mount .titleCall-_b9o8P .flex-1xMQg5.horizontal-1ae9ci,
+#app-mount .headerBar-UHpsPw .flex-1xMQg5.horizontal-1ae9ci {
+    margin-right: 0
+}

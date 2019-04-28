@@ -1,0 +1,117 @@
+.bd-backdrop {
+    opacity: .2
+}
+
+.bd-settingsButton {
+    box-shadow: none
+}
+
+.bd-modal .bd-modalInner {
+    background: rgba(0, 0, 0, 0.95);
+    border: 1px solid rgba(0, 255, 255, .5)
+}
+
+.bd-dropdown .bd-dropdownOptions .bd-dropdownOption.bd-dropdownOptionSelected,
+.bd-dropdown .bd-dropdownOptions .bd-dropdownOption:hover {
+    background-color: rgba(99, 99, 99, 0.2)
+}
+
+.bd-modal .bd-dropdown .bd-dropdownOptions {
+    background-color: rgba(0, 0, 0, 0.9)
+}
+
+.bd-modalFooter .bd-footerAlert {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 10px 10px 10px 16px;
+    border: 1px solid rgba(150, 150, 150, 0.4)
+}
+
+.bd-tooltip .bd-tooltipArrow,
+.bd-tooltip .bd-popoverArrow,
+.bd-popover .bd-tooltipArrow,
+.bd-popover .bd-popoverArrow {
+    display: none
+}
+
+.bd-tooltip,
+.bd-popover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border: 1px solid rgba(150, 150, 150, 0.2)
+}
+
+.bd-sidebarView .bd-sidebarRegion {
+    background: rgba(0, 0, 0, 0.9)
+}
+
+.bd-sidebar .bd-header,
+.bd-sidebar .bd-item,
+.bd-formHeader {
+    color: #fff
+}
+
+.bd-sidebar .bd-item:hover,
+.bd-sidebar .bd-item.bd-active {
+    background: transparent;
+    color: #00ffff
+}
+
+.bd-scrollerWrap .bd-scroller::-webkit-scrollbar {
+    width: 8px
+}
+
+.bd-scrollerWrap .bd-scroller::-webkit-scrollbar-thumb {
+    background: rgba(0, 255, 255, .5)
+}
+
+.bd-scrollerWrap .bd-scroller::-webkit-scrollbar-track-piece {
+    background: transparent
+}
+
+.bd-sidebarView .bd-contentRegion {
+    background: rgba(0, 0, 0, 0.9);
+    border-left: 1px solid rgba(150, 150, 150, 0.2)
+}
+
+.bd-card {
+    border-color: rgba(0, 255, 255, .3);
+    margin-top: 0;
+    padding: 10px 5px 10px 5px
+}
+
+.bd-card[data-theme-id="example-theme"] {
+    background-color: rgba(0, 255, 255, .1)
+}
+
+.bd-card span {
+    color: #fff
+}
+
+.bd-card .bd-cardBody .bd-cardDescription,
+.bd-card .bd-cardBody .bd-cardFooter .bd-cardExtra {
+    color: #fff
+}
+
+.bd-contentAuthor .bd-contentAuthorLink {
+    color: #00dbff
+}
+
+.bd-contentAuthor .bd-contentAuthorLink:hover {
+    color: #005fff
+}
+
+.bd-controls .bd-buttonGroup .bd-button {
+    background: #3ecc9c99
+}
+
+.bd-controls .bd-buttonGroup .bd-button.bd-err {
+    background: #d8404099
+}
+
+.bd-controls .bd-buttonGroup .bd-button:hover {
+    background: #3ecc9ccc
+}
+
+.bd-controls .bd-buttonGroup .bd-button.bd-err:hover {
+    background: #d84040cc
+}

@@ -1,0 +1,54 @@
+@mixin customChatAvatars {
+    #app-mount {
+        .chat-3bRxxu {
+            .containerCozy-jafyvG {
+                .avatar-17mtNa {
+                    .image-33JSyf.large-3ChYtB {
+                        background-size: var(--size1) var(--size1);
+                        height: var(--size1);
+                        width: var(--size1);
+                        border-radius: var(--round1);
+                        -webkit-mask: none;
+                    }
+                }
+                padding: 15px 0;
+            }
+            .headerCozy-2N9HOL {
+                height: 15px;
+            }
+            .headerCozyMeta-rdohGq {
+                left: -10px;
+                position: relative;
+            }
+            .contentCozy-3XX413 {
+                margin-left: calc(30px + var(--size1));
+            }
+            .container-1YxwTf {
+                min-height: var(--size1);
+                box-sizing: content-box;
+                .divider-32i8lo {
+                    position: absolute;
+                    bottom: 15px;
+                    width: 100%;
+                }
+                .wrapper-2F3Zv8 {
+                    left: var(--margin1);
+                    top: var(--margin2);
+                    width: var(--size1);
+                    height: var(--size1);
+                }
+            }
+            .isMentioned-N-h9aa {
+                margin: .2rem .2rem .1rem;
+            }
+            .containerCompact-3V0ioj {
+                min-height: initial;
+            }
+            .messagesWrapper-3lZDfY {
+                .containerCozyBounded-1rKFAn {
+                    padding: var(--compact);
+                }
+            }
+        }
+    }    
+}

@@ -1,0 +1,166 @@
+{
+	"info": {
+		"name": "Full Screen Server Settings",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Uri's customizable full screen status picker.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "ssColourInvite",
+					"type": "colour",
+					"value": "#7289da",
+					"text": "Invite",
+					"hint": ""
+				},
+				{
+					"id": "ssColourServerSettings",
+					"type": "colour",
+					"value": "#046d94",
+					"text": "Server Settings",
+					"hint": ""
+				},
+				{
+					"id": "ssColourCreateChannel",
+					"type": "colour",
+					"value": "#daa520",
+					"text": "Create Channel",
+					"hint": ""
+				},
+				{
+					"id": "ssColourCreateCategory",
+					"type": "colour",
+					"value": "#751e5f",
+					"text": "Create Catagory",
+					"hint": ""
+				},
+				{
+					"id": "ssColourNotification",
+					"type": "colour",
+					"value": "#157563",
+					"text": "Notifications",
+					"hint": ""
+				},
+				{
+					"id": "ssColourPrivacy",
+					"type": "colour",
+					"value": "#497388",
+					"text": "Privacy",
+					"hint": ""
+				},
+				{
+					"id": "ssColourNickname",
+					"type": "colour",
+					"value": "#714484",
+					"text": "Nickname",
+					"hint": ""
+				},
+				{
+					"id": "ssColourHidden",
+					"type": "colour",
+					"value": "#cc6699",
+					"text": "Hidden",
+					"hint": ""
+				},
+				{
+					"id": "ssColourLeave",
+					"type": "colour",
+					"value": "#f04747",
+					"text": "Leave Server",
+					"hint": ""
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to default",
+			"icon_path": "Assets/defaultBlank",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "ssColourInvite",
+							"type": "colour",
+							"value": "#7289da",
+							"text": "Invite",
+							"hint": ""
+						},
+						{
+							"id": "ssColourServerSettings",
+							"type": "colour",
+							"value": "#046d94",
+							"text": "Server Settings",
+							"hint": ""
+						},
+						{
+							"id": "ssColourCreateChannel",
+							"type": "colour",
+							"value": "#daa520",
+							"text": "Create Channel",
+							"hint": ""
+						},
+						{
+							"id": "ssColourCreateCategory",
+							"type": "colour",
+							"value": "#751e5f",
+							"text": "Create Catagory",
+							"hint": ""
+						},
+						{
+							"id": "ssColourNotification",
+							"type": "colour",
+							"value": "#157563",
+							"text": "Notifications",
+							"hint": ""
+						},
+						{
+							"id": "ssColourPrivacy",
+							"type": "colour",
+							"value": "#497388",
+							"text": "Privacy",
+							"hint": ""
+						},
+						{
+							"id": "ssColourNickname",
+							"type": "colour",
+							"value": "#714484",
+							"text": "Nickname",
+							"hint": ""
+						},
+						{
+							"id": "ssColourHidden",
+							"type": "colour",
+							"value": "#cc6699",
+							"text": "Hidden",
+							"hint": ""
+						},
+						{
+							"id": "ssColourLeave",
+							"type": "colour",
+							"value": "#f04747",
+							"text": "Leave Server",
+							"hint": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

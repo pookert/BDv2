@@ -1,0 +1,3 @@
+@import 'Core/vars';
+@import 'Core/autoHideSettings';
+@if $autoHideSettings == true {@include autoHideSettings;}

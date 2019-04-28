@@ -1,0 +1,10 @@
+$settingBarColour: #b400ff;
+$settingBarSize: 10;
+$settingsSpeed: 300ms !default;
+$autoHideSettings: true !default;
+
+:root {
+    --settingBarColour: #{$settingBarColour};
+    --settingBarSize: #{$settingBarSize}px;
+    --settingsSpeed: #{$settingsSpeed};
+}

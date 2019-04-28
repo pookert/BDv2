@@ -1,0 +1,8 @@
+$gRound: 50% !default;
+$gSize:  48px !default;
+$adjustableGuilds: true !default;
+
+:root {
+    --gRound: #{$gRound};
+    --gSize:  #{$gSize};
+}

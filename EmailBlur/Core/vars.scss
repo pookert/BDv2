@@ -1,0 +1,8 @@
+$blurSpeed: 200ms !default; 
+$blurOpacity: 0.8 !default; 
+$emailBlur: true !default;
+
+:root {
+    --blurSpeed: #{$blurSpeed} ; 
+    --blurOpacity: #{$blurOpacity} ; 
+}

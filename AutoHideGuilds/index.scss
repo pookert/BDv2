@@ -1,0 +1,3 @@
+@import 'Core/vars';
+@import 'Core/autoHideGuilds';
+@if $autoHideGuilds == true {@include autoHideGuilds;}

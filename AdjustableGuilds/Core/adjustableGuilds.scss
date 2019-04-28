@@ -1,0 +1,124 @@
+@mixin adjustableGuilds {
+    #app-mount {
+        .wrapper-1Rf91z {
+            width: calc(var(--gSize) + 20px);
+            position: relative;
+            .scrollerWrap-1IAIlv {
+                width: calc(var(--gSize) + 20px);
+                position: relative;
+            }
+            .guildSeparator-3s64Iy {
+                &:after {
+                    display: none;
+                }
+            }
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            .unreadMentionsIndicatorBottom-BXS58x {
+                padding: 5px;
+            }
+            .unreadMentionsIndicatorTop-gA6RCh {
+                padding: 5px;
+            }
+            .scroller-2TZvBN {
+                .container-2td-dC.selected-nT-gM3 {
+                    &:before {
+                        margin-top: 0;
+                        height: 100%;
+                        transform: translateY(-50%);
+                    }
+                }
+                .container-2td-dC {
+                    .noIcon-1a_FrS {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    width: var(--gSize);
+                    height: var(--gSize) !important;
+                    border-radius: var(--gRound) !important;
+                    .icon-3o6xvg {
+                        width: var(--gSize);
+                        height: var(--gSize) !important;
+                        border-radius: var(--gRound) !important;
+                    }
+                }
+                .guildsError-b7zR5H {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: var(--gSize);
+                    height: var(--gSize) !important;
+                    border-radius: var(--gRound) !important;
+                }
+                .guildSeparator-3s64Iy {
+                    visibility: hidden;
+                }
+                .friendsOnline-2JkivW {
+                    width: calc(var(--gSize) + 20px);
+                }
+                .container-1aNBdK {
+                    .wrapper-232cHJ {
+                        margin-top: -15px;
+                    }
+                    width: var(--gSize);
+                    height: var(--gSize) !important;
+                    border-radius: var(--gRound) !important;
+                }
+                .container-1ETFDs {
+                    width: var(--gSize);
+                    height: var(--gSize) !important;
+                    border-radius: var(--gRound) !important;
+                }
+                .homeButton-2Cw51C {
+                    width: var(--gSize);
+                    height: var(--gSize) !important;
+                    border-radius: var(--gRound) !important;
+                }
+                .wrapper-2lTRaf {
+                    width: var(--gSize);
+                    height: var(--gSize) !important;
+                    border-radius: var(--gRound) !important;
+                }
+                .avatar-3f3jk4 {
+                    width: var(--gSize);
+                    height: var(--gSize) !important;
+                    border-radius: var(--gRound) !important;
+                }
+                .circleIconButton-jET_ig {
+                    width: var(--gSize);
+                    height: var(--gSize) !important;
+                    border-radius: var(--gRound) !important;
+                }
+                .container-11WMXy {
+                    width: var(--gSize);
+                    height: var(--gSize) !important;
+                    border-radius: var(--gRound) !important;
+                }
+                .dragPlaceholder-D9-haY {
+                    width: var(--gSize);
+                    height: var(--gSize) !important;
+                    border-radius: var(--gRound) !important;
+                }
+            }
+        }
+    }
+    .bd-settingsButton {
+        box-shadow: none;
+        left: 10px;
+        width: var(--gSize);
+        height: var(--gSize) !important;
+        border-radius: var(--gRound) !important;
+        .bd-settingsButtonBtn {
+            width: var(--gSize);
+            height: var(--gSize) !important;
+            border-radius: var(--gRound) !important;
+            &::before {
+                width: var(--gSize);
+                height: var(--gSize) !important;
+                border-radius: var(--gRound) !important;
+            }
+        }
+    }    
+}

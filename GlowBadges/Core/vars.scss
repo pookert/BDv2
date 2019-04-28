@@ -1,0 +1,30 @@
+$badgeGlow: 2px !default;
+$hype: #cc8400 !default;
+$nitro: #cc8400 !default;
+$early: #cc8400 !default;
+$brave: #cc8400 !default;
+$bril: #cc8400 !default;
+$bal: #cc8400 !default;
+$staff: #cc8400 !default;
+$bughntr: #cc8400 !default;
+$partner: #cc8400 !default;
+$bddev: #cc8400 !default;
+$bdcontrib: #cc8400 !default;
+$owner: #cc8400 !default;
+$glowBadges: true !default;
+
+:root {
+    --badgeGlow: #{$badgeGlow};
+	--hype: #{$hype}; 
+    --nitro: #{$nitro};
+    --early: #{$early};
+    --brave: #{$brave};
+    --bril: #{$bril};
+    --bal: #{$bal};
+	--staff: #{$staff};
+	--bughntr: #{$bughntr};
+	--partner: #{$partner};
+    --bddev: #{$bddev};
+    --bdcontrib: #{$bdcontrib};
+    --owner: #{$owner};
+}

@@ -1,0 +1,29 @@
+#app-mount .wrapper-1Rf91z, 
+#app-mount .wrapper-1Rf91z .listItem-2P_4kh,
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv {
+    width: calc(var(--gSize) + 25px);
+    position: relative;
+}
+
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
+    visibility: hidden
+}
+
+.bd-settingsButton {
+    box-shadow:none;
+    left:10px;
+}
+
+.bd-settingsButton,
+.bd-settingsButton .bd-settingsButtonBtn,
+.bd-settingsButton .bd-settingsButtonBtn::before,
+#app-mount .wrapper-1Rf91z .acronym-2mOFsV, 
+#app-mount .wrapper-1Rf91z foreignObject,
+#app-mount .wrapper-1Rf91z .wrapper-25eVIn, 
+#app-mount .wrapper-1Rf91z .svg-1X37T1,
+#app-mount .wrapper-1Rf91z .circleIconButton-jET_ig {
+    width: var(--gSize);
+    height: var(--gSize);
+    border-radius: var(--gRound);
+    mask:none;
+}

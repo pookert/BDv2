@@ -1,0 +1,176 @@
+/* Main Wallpaper */
+#app-mount {background:url(map-get($exBG, url)) center/cover no-repeat}
+
+    /* Fonts/Text */
+#app-mount .markup-2BOw-j:not(code) {
+    color: #fff;
+    font-size: 0.9375rem;
+    text-shadow: 1px 1px 1px #000
+}
+
+#app-mount ::placeholder {color: rgba(255, 255, 255, 0.8)}
+
+    /* ScrollBars */
+#app-mount ::-webkit-scrollbar,
+#app-mount ::-webkit-scrollbar-track-piece {
+    visibility: hidden;width: 8px
+}
+
+#app-mount ::-webkit-scrollbar-thumb {
+    border: none !important;
+    background: #00ffe23d
+}
+
+#app-mount .membersWrap-2h-GB4 ::-webkit-scrollbar {width: 6px}
+
+    /* Main Transparency */
+#app-mount .layer-3QrUeG, #app-mount .layers-3iHuyZ, #app-mount .container-2lgZY8, #app-mount .typing-2GQL18,
+#app-mount .root-1BQpZw,#app-mount .membersWrap-2h-GB4 .members-1998pB, #app-mount .messagesWrapper-3lZDfY,
+#app-mount .container-3gCOGc, #app-mount .applicationStore-1pNvnv, #app-mount .standardSidebarView-3F1I7i, 
+#app-mount .sidebarRegion-VFTUkN, #app-mount .option-1l2vXE, #app-mount .gameLibrary-TTDw4Y, #app-mount .activityFeed-1C0EmJ, 
+#app-mount .channels-Ie2l6A, #app-mount .container-PNkimc, #app-mount .container-2Thooq,#app-mount .contentRegion-3nDuYy,
+#app-mount .chat-3bRxxu, #app-mount .chat-3bRxxu form, #app-mount .content-yTz4x3,#app-mount .wrapper-1Rf91z,
+#app-mount .title-3qD0b-, #app-mount .headerBar-UHpsPw, #app-mount .header-39GIC8, #app-mount .chat-3bRxxu .markup-2BOw-j code,
+#app-mount .tile-2OwFgW, #app-mount .guildSeparator-3s64Iy:after, #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse, #app-mount .pageWrapper-1PgVDX {
+    background: transparent
+}
+
+#app-mount .app-2rEoOp, #app-mount .titleBar-AC4pGV {background: rgba(0,0,0, $brightness)}    /* Brightness adjust */
+
+#app-mount .typeWindows-1za-n7 {padding-top:4px;margin-top: 0}
+#app-mount .wordmark-2iDDfm{display:none}   /* Removes Discord wordmark from top left */
+#app-mount .backdrop-1wrmKB {background:rgba(0, 0, 0, 0.3) !important}  /* Lowers brightness on backdrop */
+#app-mount .wrapper-1Rf91z .wrapper-2lTRaf{background:rgba(0, 0, 0, .4) !important} /* Guilds - Requires important from inline style */
+html {backface-visibility:hidden}
+
+    /* VideoChat */
+#app-mount .backgroundBlur-dazcBE{background-image: none !important}
+#app-mount .backgroundBlurOverlay-1JS5RF, #app-mount .wrapper-29NfPK, 
+#app-mount .video-1FfuMD, #app-mount .videoBackgroundWrapper-2dCt49,
+#app-mount .video-1FfuMD.noChat-3nt48u .videoTop-eOkSPq, #app-mount .wrapper-3eE7AX,
+#app-mount .video-1FfuMD.normal-1jW0uq .videoTop-eOkSPq, #app-mount .video-1kutKI {
+    background:transparent
+}
+#app-mount .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r, 
+#app-mount .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV, 
+#app-mount .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r,
+#app-mount .wrapper-29NfPK.noChat-2qlG4B .center-1Vp33r, 
+#app-mount .wrapper-29NfPK.noChat-2qlG4B .side-kO0bwV, 
+#app-mount .wrapper-29NfPK.normal-2GSW0u .center-1Vp33r, 
+#app-mount .wrapper-29NfPK.normal-2GSW0u .side-kO0bwV {
+    background-color: transparent;border:none
+}
+
+    /* Guilds */
+#app-mount .homeIcon-tEMBK1 g {display:none}
+#app-mount svg.homeIcon-tEMBK1 {background: var(--homeIcon) no-repeat center/cover} /* Change home icon */
+
+#app-mount .friendsOnline-2JkivW {color: #ddd}
+
+    /* Channels */
+#app-mount .channels-Ie2l6A .nameMutedText-3Vj4bM, 
+#app-mount .channels-Ie2l6A .nameMutedVoice-3oxyQZ {
+    color: #555
+}
+
+#app-mount .channels-Ie2l6A .nameDefaultText-24KCy5, 
+#app-mount .channels-Ie2l6A .nameDefaultVoice-3WUH7s, 
+#app-mount .channels-Ie2l6A .nameLockedText-3pqQcL, 
+#app-mount .channels-Ie2l6A .nameLockedVoice-26MhB1 {
+    color: #bbb
+}
+
+#app-mount .channels-Ie2l6A .nameUnreadText-DfkrI4, 
+#app-mount .channels-Ie2l6A .nameUnreadVoice-EVo-wI {
+    color: #fff
+}
+
+    /* Chat */
+#app-mount .title-3qD0b-, 
+#app-mount .header-2o-2hj,
+#app-mount .headerBar-UHpsPw, 
+#app-mount .searchBar-6Kv8R2,
+#app-mount .unreadMentionsBar-1VrBNe {
+    box-shadow: none
+}
+#app-mount .search-2oPWTC .searchBar-3dMhjb .public-DraftEditorPlaceholder-root {
+    color: #ddd
+}
+#app-mount .timestampCozy-2hLAPV, 
+#app-mount .timestamp-1E3uAL,
+#app-mount .edited-DL9ECl {color:#ddd}
+
+#app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, 
+#app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before,
+#app-mount .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, 
+#app-mount .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before,
+#app-mount .chat-3bRxxu .dividerEnabled-2TTlcf, 
+#app-mount .chat-3bRxxu .channelTextArea-rNsIhG {border-color:transparent}  /* Cleans up the lines around the chat */
+
+#app-mount .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+    color:#ddd
+}
+
+#app-mount .chat-3bRxxu .markup-2BOw-j pre, 
+#app-mount .chat-3bRxxu .markup-2BOw-j code.inline {background: #00000066}    /* Code Blocks */
+
+#app-mount .chat-3bRxxu .reaction-1ELvT8.reactionMe-23mbRf {
+    background: rgba(0, 0, 0, 0.6);border:1px solid #808080
+}
+
+#app-mount .membersGroup-v9BXpm {color: #ddd;text-align: center}
+
+    /* Grey -> Black */
+#app-mount .audio-2KA0-x:after, 
+#app-mount .video-2jNDI4:after,
+#app-mount .contentSelectedText-3wUhMi, 
+#app-mount .contentSelectedVoice-1WDIBM,
+#app-mount .contentConnectedVoice-qL-YrL:active, 
+#app-mount .contentHoveredText-2D9B-x, 
+#app-mount .contentHoveredVoice-3p_NEO:active, 
+#app-mount .contentSelectedVoice-1WDIBM:active,
+#app-mount .channel-2QD9_O:hover a, 
+#app-mount .channel-2QD9_O.selected-1HYmZZ a,
+#app-mount .reaction-1ELvT8,
+#app-mount .inner-zqa7da,
+#app-mount .member-3W1lQa:hover .content-OzHfo4,
+#app-mount .member-3W1lQa.popout-open .content-OzHfo4, 
+#app-mount .member-3W1lQa.popout-open:hover .content-OzHfo4,
+#app-mount .searchBar-2_Yu-C,
+#app-mount .searchBar-2_Yu-C .searchBarInner-1_Tg2R,
+#app-mount .search-2oPWTC .searchBar-3dMhjb,
+#app-mount .messageGroupBlocked-3wrQQX,
+#app-mount .messageGroupBlocked-3wrQQX.revealed-1_RKsf,
+#app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,
+#app-mount .channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW,
+#app-mount .channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4,
+#app-mount .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u,
+#app-mount .circleIconButton-jET_ig{
+        background: rgba(0, 0, 0, 0.5);
+}
+
+    /* Roundness */
+#app-mount .mask-3OgeRz {-webkit-mask:none;mask:none}
+#app-mount .wrapper-1Rf91z .wrapper-2lTRaf {border-radius: var(--round) !important}
+#app-mount .dragfix-1wSxtO:active, #app-mount .tabBadge-3smxHS, #app-mount .wrapper-232cHJ, .avatarDefault-35WC3R, .avatarSpeaking-1wJCNq,
+#app-mount .tabBar-1E2ExX .badge-xFJoEU,.avatarUploaderInner-3UNxY3, #app-mount .wrapper-1Rf91z .circleIconButton-jET_ig, 
+#app-mount .image-33JSyf, #app-mount .wrapper-2F3Zv8 {
+    border-radius: var(--round)
+}
+    /* Activity */
+#app-mount .activityFeed-1C0EmJ .outer-2IVh5n,
+#app-mount .activityFeed-1C0EmJ .recentlyPlayedContainer-2F3MqS {
+    background: rgba(0, 0, 0, 0.7)
+}
+#app-mount .activityFeed-1C0EmJ .h5-18_1nd {text-align:center}
+
+    /* Library */
+#app-mount .rowWrapperDim-2Y1SDG .nameBodyCell-3JOlnK, 
+#app-mount .rowWrapperDim-2Y1SDG .settingIcon-1nXguX, 
+#app-mount .rowWrapperDim-2Y1SDG .textCell-1aBIUP {
+    opacity: .8;
+}
+    /* Popups/Menus/Modals */
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN,
+#app-mount .userPopout-3XzG_A .body-3iLsc4, 
+#app-mount .userPopout-3XzG_A .footer-1fjuF6 {background:rgba(0, 0, 0, 0.8)}

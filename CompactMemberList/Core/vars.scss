@@ -1,0 +1,6 @@
+$membersSpeed: 300ms !default;
+$compactMemberList: true !default;
+
+:root {
+    --membersSpeed: #{$membersSpeed} ;
+}

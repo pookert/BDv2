@@ -1,0 +1,162 @@
+{
+	"info": {
+		"name": "Blocked Messages Button",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Turns blocked messages into small buttons on the right side of chat. Expands on click. Customizable with user settings.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "btnBg",
+					"type": "colour",
+					"value": "#303235",
+					"text": "Button Background",
+					"hint": ""
+				},
+				{
+					"id": "btnColour",
+					"type": "colour",
+					"value": "#8a8e94",
+					"text": "Button Colour",
+					"hint": ""
+				},
+				{
+					"id": "btnBorder",
+					"type": "colour",
+					"value": "#4a4a4a",
+					"text": "Button Border",
+					"hint": ""
+				},
+				{
+					"id": "msgBg",
+					"type": "colour",
+					"value": "#32353b",
+					"text": "Msg Background",
+					"hint": ""
+				},
+				{
+					"id": "msgColour",
+					"type": "colour",
+					"value": "#fff",
+					"text": "Msg text colour",
+					"hint": ""
+				},
+				{
+					"id": "msgBorder",
+					"type": "colour",
+					"value": "#1f1f21",
+					"text": "Msgs border",
+					"hint": ""
+				},
+				{
+					"id": "hideAll",
+					"type": "radio",
+					"value": "block",
+					"text": "Hide/Show",
+					"hint": "",
+					"options": [
+						{
+							"id": "opt1",
+							"text": "Show Blocked Msgs",
+							"value": "block"
+						},
+						{
+							"id": "opt2",
+							"text": "Hide Blocked Msgs",
+							"value": "none"
+						}
+					]
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to default",
+			"icon_path": "/Assets/blockMsg1.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "btnBg",
+							"type": "colour",
+							"value": "#303235",
+							"text": "Button Background",
+							"hint": ""
+						},
+						{
+							"id": "btnColour",
+							"type": "colour",
+							"value": "#8a8e94",
+							"text": "Button Colour",
+							"hint": ""
+						},
+						{
+							"id": "btnBorder",
+							"type": "colour",
+							"value": "#4a4a4a",
+							"text": "Button Border",
+							"hint": ""
+						},
+						{
+							"id": "msgBg",
+							"type": "colour",
+							"value": "#32353b",
+							"text": "Msg Background",
+							"hint": ""
+						},
+						{
+							"id": "msgColour",
+							"type": "colour",
+							"value": "#fff",
+							"text": "Msg text colour",
+							"hint": ""
+						},
+						{
+							"id": "msgBorder",
+							"type": "colour",
+							"value": "#1f1f21",
+							"text": "Msgs border",
+							"hint": ""
+						},
+						{
+							"id": "hideAll",
+							"type": "radio",
+							"value": "block",
+							"text": "Hide/Show",
+							"hint": "",
+							"options": [
+								{
+									"id": "opt1",
+									"text": "Show Blocked Msgs",
+									"value": "block"
+								},
+								{
+									"id": "opt2",
+									"text": "Hide Blocked Msgs",
+									"value": "none"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

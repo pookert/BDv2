@@ -1,0 +1,138 @@
+{
+	"info": {
+		"name": "Chat Bubble Style 2",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Chat bubble with glow & hover effects.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "cb2Rad1",
+					"type": "text",
+					"value": "15px",
+					"text": "Roundness",
+					"hint": ""
+				},
+				{
+					"id": "cb2BG",
+					"type": "colour",
+					"value": "#00000066",
+					"text": "Background colour",
+					"hint": ""
+				},
+				{
+					"id": "cb2hBG",
+					"type": "colour",
+					"value": "#000000cc",
+					"text": "Background Colour on hover",
+					"hint": ""
+				},
+				{
+					"id": "cb2Glow1",
+					"type": "text",
+					"value": "0 0 4px 0",
+					"text": "Glow effect or border",
+					"hint": "Default: 0 0 4px 0 Border: 0 0 0 2px"
+				},
+				{
+					"id": "cb2Glow2",
+					"type": "colour",
+					"value": "#ff0000e6",
+					"text": "Glow effect or border colour",
+					"hint": ""
+				},
+				{
+					"id": "cb2hGlow1",
+					"type": "text",
+					"value": "0 0 7px 0",
+					"text": "Glow effect or border on hover",
+					"hint": "Default: 0 0 7px 0 Border: 0 0 0 2px"
+				},
+				{
+					"id": "cb2hGlow2",
+					"type": "colour",
+					"value": "#ff0000e6",
+					"text": "Glow effect or border colour on hover",
+					"hint": ""
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to default",
+			"icon_path": "Assets/defaultBlank.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "cb2Rad1",
+							"type": "text",
+							"value": "15px",
+							"text": "Roundness",
+							"hint": ""
+						},
+						{
+							"id": "cb2BG",
+							"type": "colour",
+							"value": "#00000066",
+							"text": "Background colour",
+							"hint": ""
+						},
+						{
+							"id": "cb2hBG",
+							"type": "colour",
+							"value": "#000000cc",
+							"text": "Background Colour on hover",
+							"hint": ""
+						},
+						{
+							"id": "cb2Glow1",
+							"type": "text",
+							"value": "0 0 4px 0",
+							"text": "Glow effect or border",
+							"hint": "Default: 0 0 4px 0 Border: 0 0 0 2px"
+						},
+						{
+							"id": "cb2Glow2",
+							"type": "colour",
+							"value": "#ff0000e6",
+							"text": "Glow effect or border colour",
+							"hint": ""
+						},
+						{
+							"id": "cb2hGlow1",
+							"type": "text",
+							"value": "0 0 7px 0",
+							"text": "Glow effect or border on hover",
+							"hint": "Default: 0 0 7px 0 Border: 0 0 0 2px"
+						},
+						{
+							"id": "cb2hGlow2",
+							"type": "colour",
+							"value": "#ff0000e6",
+							"text": "Glow effect or border colour on hover",
+							"hint": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

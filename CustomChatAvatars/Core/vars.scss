@@ -1,0 +1,14 @@
+$size1: 50px !default;
+$round1: 0% !default;
+$margin1: 0px !default;
+$margin2: 0px !default;
+$compact: 15 !default;
+$customChatAvatars: true !default;
+
+:root {
+--size1: #{$size1};
+--round1: #{$round1};
+--margin1: #{$margin1}; 
+--margin2: #{$margin2};
+--compact: #{$compact}px; 
+}

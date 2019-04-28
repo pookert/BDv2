@@ -1,0 +1,57 @@
+@mixin customEmojiPicker {
+    #app-mount {
+        .emojiPicker-3m1S-j {
+            height: var(--epHeight);
+            width: var(--epWidth);
+            .scroller-3vODG7 {
+                height: var(--epHeight);
+                width: var(--epWidth);
+                height: 100%;
+                height: 100%;
+                width: 100%;
+                width: 100%;
+                .row-3j9Kuo {
+                    width: var(--epWidth);
+                }
+                .emojiItem-109bjA {
+                    width: var(--epItemW);
+                }
+            }
+            .scrollerWrap-PyxcLY {
+                height: var(--epHeight);
+                width: var(--epWidth);
+                height: 100%;
+                width: 100%;
+            }
+            .dimmer-3iH-5D {
+                height: var(--epHeight);
+                width: var(--epWidth);
+                height: 100%;
+                width: 100%;
+            }
+            .categories-1feg4n {
+                margin: 0;
+                position: relative;
+                left: 70px;
+            }
+        }
+        #bda-qem-twitch-container {
+            height: var(--epHeight);
+            width: var(--epWidth);
+        }
+        #bda-qem-favourite-container {
+            height: var(--epHeight);
+            width: var(--epWidth);
+        }
+        .chat-3bRxxu {
+            .emoji.jumboable {
+                height: var(--emojiSize);
+                width: var(--emojiSize);
+            }
+            .emote.jumboable {
+                height: var(--emojiSize);
+                width: var(--emojiSize);
+            }
+        }
+    }    
+}

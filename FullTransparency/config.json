@@ -1,0 +1,572 @@
+{
+    "info": {
+        "name": "Full Transparency",
+        "authors": [
+            {
+                "name": "Satoru",
+                "discord_id": "135913674538745856",
+                "github_username": "Satoru8",
+                "url": "http://discord.gg/fjvwb95"
+            }
+        ],
+        "version": "2.0a",
+        "description": "A theme designed specifically for using the transparency option in BetterDiscord.\nExtra features/animations. Many user customization settings. \n\n*Fully close discord and reopen when first turning on transparency option.\nCtrl + R does not work.\n\nSupport Server: http://discord.gg/fjvwb95",
+        "icon": "Assets/icon.svg",
+        "icon_type": "image/svg+xml",
+        "type": "sass"
+    },
+    "main": "index.scss",
+    "defaultConfig": [
+        {
+            "category": "Background Settings",
+            "type": "drawer",
+            "settings": [
+                {
+                    "id": "brightness",
+                    "type": "colour",
+                    "value": "rgba(0, 0, 0, 0.8)",
+                    "text": "Main Trainsparency & Colour",
+                    "hint": ""
+                },
+                {
+                    "id": "bgLayer",
+                    "type": "slider",
+                    "min": ".01",
+                    "max": "1",
+                    "step": ".01",
+                    "value": ".01",
+                    "text": "Secondary wallpaper brightness",
+                    "hint": ""
+                },
+                {
+                    "id": "bgBlur",
+                    "type": "text",
+                    "value": "0px",
+                    "text": "Optional blur effect for secondary wallpaper.",
+                    "hint": ""
+                },
+                {
+                    "id": "bgOpacity",
+                    "type": "slider",
+                    "value": ".6",
+                    "min": ".01",
+                    "max": "1",
+                    "step": ".01",
+                    "text": "Opacity for the secondary wallpaper.",
+                    "hint": ""
+                }
+            ]
+        },
+        {
+            "category": "Theme Colours",
+            "type": "drawer",
+            "settings": [
+                {
+                    "id": "accent",
+                    "type": "colour",
+                    "value": "rgba(0, 192, 255, 0.7)",
+                    "text": "Main Accent Colour",
+                    "hint": "Guilds/PFPs"
+                },
+                {
+                    "id": "border",
+                    "type": "colour",
+                    "value": "rgba(0, 192, 255, 0.7)",
+                    "text": "Border Colour",
+                    "hint": ""
+                },
+                {
+                    "id": "gSelect",
+                    "type": "colour",
+                    "value": "5px 2px rgba(255, 178, 0, 0.7)",
+                    "text": "Currently selected guild colour.",
+                    "hint": "5px 2px Default"
+                },
+                {
+                    "id": "unread",
+                    "type": "colour",
+                    "value": "rgba(0, 192, 255, 0.8)",
+                    "text": "Unread messages colour",
+                    "hint": ""
+                },
+                {
+                    "id": "sb",
+                    "type": "colour",
+                    "value": "rgba(0, 192, 255, 0.2)",
+                    "text": "Scrollbars",
+                    "hint": ""
+                }
+            ]
+        },
+        {
+            "category": "Theme Settings",
+            "type": "drawer",
+            "settings": [
+                {
+                    "id": "round",
+                    "type": "text",
+                    "value": "30%",
+                    "text": "Overall icon roundness",
+                    "hint": "Guilds/PFPs"
+                },
+                {
+                    "id": "winRad",
+                    "type": "number",
+                    "value": "4",
+                    "text": "Discord window roundness",
+                    "hint": ""
+                },
+                {
+                    "id": "settings",
+                    "type": "colour",
+                    "value": "rgba(0, 0, 0, 0.8)",
+                    "text": "Settings menu transparency",
+                    "hint": ""
+                },
+                {
+                    "id": "setWidth2",
+                    "type": "text",
+                    "value": "75%",
+                    "text": "Settings menu width",
+                    "hint": ""
+                },
+                {
+                    "id": "setHeight2",
+                    "type": "text",
+                    "value": "85%",
+                    "text": "Settings menu height",
+                    "hint": ""
+                }
+            ]
+        },
+        {
+            "category": "Status Colors",
+            "type": "drawer",
+            "settings": [
+                {
+                    "id": "sGlow",
+                    "type": "text",
+                    "value": "5px 2px",
+                    "text": "Glow/Border Style",
+                    "hint": "5px 2px = theme deafult.  0px 2px for borders. 5px 0px for glow."
+                },
+                {
+                    "id": "online",
+                    "type": "colour",
+                    "value": "#43b581",
+                    "text": "Online Colour",
+                    "hint": ""
+                },
+                {
+                    "id": "offline",
+                    "type": "colour",
+                    "value": "#747f8d",
+                    "text": "Offline Colour",
+                    "hint": ""
+                },
+                {
+                    "id": "idle",
+                    "type": "colour",
+                    "value": "#faa61a",
+                    "text": "Idle Colour",
+                    "hint": ""
+                },
+                {
+                    "id": "dnd",
+                    "type": "colour",
+                    "value": "#f04747",
+                    "text": "DnD Colour",
+                    "hint": ""
+                },
+                {
+                    "id": "stream",
+                    "type": "colour",
+                    "value": "#593695",
+                    "text": "Stream Colour",
+                    "hint": ""
+                },
+                {
+                    "id": "invis",
+                    "type": "colour",
+                    "value": "#1a36fa",
+                    "text": "Invisible Colour",
+                    "hint": "Only you can see this."
+                }
+            ]
+        },
+        {
+            "category": "Chat Avatars",
+            "type": "drawer",
+            "settings": [
+                {
+                    "id": "size1",
+                    "type": "text",
+                    "value": "50px",
+                    "text": "Avatar Size",
+                    "hint": "This scales the rest of the chat with it."
+                },
+                {
+                    "id": "margin1",
+                    "type": "text",
+                    "value": "0px",
+                    "text": "Move Avatar Left/Right",
+                    "hint": "-10 = 10px left, 10 would be 10px right"
+                },
+                {
+                    "id": "margin2",
+                    "type": "text",
+                    "value": "0px",
+                    "text": "Move avatar Up/Down",
+                    "hint": "-10 = 10px up, 10 would be 10px down"
+                },
+                {
+                    "id": "compact",
+                    "type": "number",
+                    "value": "15",
+                    "text": "Chat message compact",
+                    "hint": "Discord Default 20. 5 min, max ??"
+                }
+            ]
+        },
+        {
+            "category": "Optional Addons",
+            "type": "drawer",
+            "settings": [
+                {
+                    "id": "glowStatus",
+                    "type": "dropdown",
+                    "value": "opt1",
+                    "text": "Glow Status",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Enable",
+                            "value": "true"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Disable",
+                            "value": "false"
+                        }
+                    ]
+                },
+                {
+                    "id": "customChatAvatars",
+                    "type": "dropdown",
+                    "value": "opt1",
+                    "text": "Custom Chat Avatars",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Enable",
+                            "value": "true"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Disable",
+                            "value": "false"
+                        }
+                    ]
+                },
+                {
+                    "id": "beautifulCategories",
+                    "type": "dropdown",
+                    "value": "opt1",
+                    "text": "Beautiful Categories",
+                    "options": [
+                        {
+                            "id": "opt1",
+                            "text": "Enable",
+                            "value": "true"
+                        },
+                        {
+                            "id": "opt2",
+                            "text": "Disable",
+                            "value": "false"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "configSchemes": [
+        {
+            "id": "default-scheme",
+            "name": "Reset to default",
+            "icon_path": "Assets/defaultBlank.png",
+            "settings": [
+                {
+                    "category": "Background Settings",
+                    "type": "drawer",
+                    "settings": [
+                        {
+                            "id": "brightness",
+                            "type": "colour",
+                            "value": "rgba(0, 0, 0, 0.8)",
+                            "text": "Main Trainsparency & Colour",
+                            "hint": ""
+                        },
+                        {
+                            "id": "bgLayer",
+                            "type": "slider",
+                            "min": ".01",
+                            "max": "1",
+                            "step": ".01",
+                            "value": ".01",
+                            "text": "Secondary wallpaper brightness",
+                            "hint": ""
+                        },
+                        {
+                            "id": "bgBlur",
+                            "type": "text",
+                            "value": "0px",
+                            "text": "Optional blur effect for secondary wallpaper.",
+                            "hint": ""
+                        },
+                        {
+                            "id": "bgOpacity",
+                            "type": "slider",
+                            "value": ".6",
+                            "min": ".01",
+                            "max": "1",
+                            "step": ".01",
+                            "text": "Opacity for the secondary wallpaper.",
+                            "hint": ""
+                        }
+                    ]
+                },
+                {
+                    "category": "Theme Colours",
+                    "type": "drawer",
+                    "settings": [
+                        {
+                            "id": "accent",
+                            "type": "colour",
+                            "value": "rgba(0, 192, 255, 0.7)",
+                            "text": "Main Accent Colour",
+                            "hint": "Guilds/PFPs"
+                        },
+                        {
+                            "id": "border",
+                            "type": "colour",
+                            "value": "rgba(0, 192, 255, 0.7)",
+                            "text": "Border Colour",
+                            "hint": ""
+                        },
+                        {
+                            "id": "gSelect",
+                            "type": "colour",
+                            "value": "5px 2px rgba(255, 178, 0, 0.7)",
+                            "text": "Currently selected guild colour.",
+                            "hint": "5px 2px Default"
+                        },
+                        {
+                            "id": "unread",
+                            "type": "colour",
+                            "value": "rgba(0, 192, 255, 0.8)",
+                            "text": "Unread messages colour",
+                            "hint": ""
+                        },
+                        {
+                            "id": "sb",
+                            "type": "colour",
+                            "value": "rgba(0, 192, 255, 0.2)",
+                            "text": "Scrollbars",
+                            "hint": ""
+                        }
+                    ]
+                },
+                {
+                    "category": "Theme Settings",
+                    "type": "drawer",
+                    "settings": [
+                        {
+                            "id": "round",
+                            "type": "text",
+                            "value": "30%",
+                            "text": "Overall icon roundness",
+                            "hint": "Guilds/PFPs"
+                        },
+                        {
+                            "id": "winRad",
+                            "type": "number",
+                            "value": "4",
+                            "text": "Discord window roundness",
+                            "hint": ""
+                        },
+                        {
+                            "id": "settings",
+                            "type": "colour",
+                            "value": "rgba(0, 0, 0, 0.8)",
+                            "text": "Settings menu transparency",
+                            "hint": ""
+                        },
+                        {
+                            "id": "setWidth2",
+                            "type": "text",
+                            "value": "75%",
+                            "text": "Settings menu width",
+                            "hint": ""
+                        },
+                        {
+                            "id": "setHeight2",
+                            "type": "text",
+                            "value": "85%",
+                            "text": "Settings menu height",
+                            "hint": ""
+                        }
+                    ]
+                },
+                {
+                    "category": "Status Colors",
+                    "type": "drawer",
+                    "settings": [
+                        {
+                            "id": "sGlow",
+                            "type": "text",
+                            "value": "5px 2px",
+                            "text": "Glow/Border Style",
+                            "hint": "5px 2px = theme deafult.  0px 2px for borders. 5px 0px for glow."
+                        },
+                        {
+                            "id": "online",
+                            "type": "colour",
+                            "value": "#43b581",
+                            "text": "Online Colour",
+                            "hint": ""
+                        },
+                        {
+                            "id": "offline",
+                            "type": "colour",
+                            "value": "#747f8d",
+                            "text": "Offline Colour",
+                            "hint": ""
+                        },
+                        {
+                            "id": "idle",
+                            "type": "colour",
+                            "value": "#faa61a",
+                            "text": "Idle Colour",
+                            "hint": ""
+                        },
+                        {
+                            "id": "dnd",
+                            "type": "colour",
+                            "value": "#f04747",
+                            "text": "DnD Colour",
+                            "hint": ""
+                        },
+                        {
+                            "id": "stream",
+                            "type": "colour",
+                            "value": "#593695",
+                            "text": "Stream Colour",
+                            "hint": ""
+                        },
+                        {
+                            "id": "invis",
+                            "type": "colour",
+                            "value": "#1a36fa",
+                            "text": "Invisible Colour",
+                            "hint": "Only you can see this."
+                        }
+                    ]
+                },
+                {
+                    "category": "Chat Avatars",
+                    "type": "drawer",
+                    "settings": [
+                        {
+                            "id": "size1",
+                            "type": "text",
+                            "value": "50px",
+                            "text": "Avatar Size",
+                            "hint": "This scales the rest of the chat with it."
+                        },
+                        {
+                            "id": "margin1",
+                            "type": "text",
+                            "value": "0px",
+                            "text": "Move Avatar Left/Right",
+                            "hint": "-10 = 10px left, 10 would be 10px right"
+                        },
+                        {
+                            "id": "margin2",
+                            "type": "text",
+                            "value": "0px",
+                            "text": "Move avatar Up/Down",
+                            "hint": "-10 = 10px up, 10 would be 10px down"
+                        },
+                        {
+                            "id": "compact",
+                            "type": "number",
+                            "value": "15",
+                            "text": "Chat message compact",
+                            "hint": "Discord Default 20. 5 min, max ??"
+                        }
+                    ]
+                },
+                {
+                    "category": "Optional Addons",
+                    "type": "drawer",
+                    "settings": [
+                        {
+                            "id": "glowStatus",
+                            "type": "dropdown",
+                            "value": "opt1",
+                            "text": "Glow Status",
+                            "options": [
+                                {
+                                    "id": "opt1",
+                                    "text": "Enable",
+                                    "value": "true"
+                                },
+                                {
+                                    "id": "opt2",
+                                    "text": "Disable",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "customChatAvatars",
+                            "type": "dropdown",
+                            "value": "opt1",
+                            "text": "Custom Chat Avatars",
+                            "options": [
+                                {
+                                    "id": "opt1",
+                                    "text": "Enable",
+                                    "value": "true"
+                                },
+                                {
+                                    "id": "opt2",
+                                    "text": "Disable",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "beautifulCategories",
+                            "type": "dropdown",
+                            "value": "opt1",
+                            "text": "Beautiful Categories",
+                            "options": [
+                                {
+                                    "id": "opt1",
+                                    "text": "Enable",
+                                    "value": "true"
+                                },
+                                {
+                                    "id": "opt2",
+                                    "text": "Disable",
+                                    "value": "false"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

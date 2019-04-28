@@ -1,0 +1,68 @@
+#app-mount .wrapper-1Rf91z {
+    width: 120px
+}
+
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv {
+    width: 135px
+}
+
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN {
+    padding-bottom: 35px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0;
+    align-content: flex-start
+}
+
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC,
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .circleIconButton-jET_ig {
+    margin-left: 5px;
+    margin-top: 5px
+}
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-1aNBdK {
+    left: 5px;
+    top: 10px;
+}
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .unread-2OHH1w:before {
+    margin-left: 15px;
+    margin-top: -25px;
+    
+}
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-1ETFDs {
+    position: relative;
+    left: 30px;
+    top: -5px
+}
+
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
+    position: relative;
+    width: 100%
+}
+
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .friendsOnline-2JkivW {
+    position: relative;
+    margin: auto;
+    left: -30px;
+    top: 25px
+}
+
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy:after,
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.selected-nT-gM3:before {
+    visibility: hidden
+}
+
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-1aNBdK:not(.container-1aNBdK) {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-1aNBdK:not(.container-1aNBdK) {
+    top: 15px;
+    left: 0;
+}
+
+.bd-settingsButton {
+    left: 20px;
+    box-shadow: none
+}

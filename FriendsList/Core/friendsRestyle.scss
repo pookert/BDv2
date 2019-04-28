@@ -1,0 +1,294 @@
+@mixin friendsRestyle {
+    @media (max-width: 1300px) {
+        .container-3gCOGc {
+            .friendsTable-133bsv {
+                .friendsColumnGuilds-2we6jb {
+                    display: inline-flex !important;
+                }
+            }
+        }
+    }
+    #app-mount {
+        .container-3gCOGc {
+            .friendsTable-133bsv {
+                .friendsRow-2yicud {
+                    background: rgba(0, 0, 0, 0.5);
+                    box-shadow: 0px 0px 5px 1px var(--mc);
+                    border-radius: 6px;
+                    margin: 10px;
+                    padding: 0;
+                    height: 130px !important;
+                    flex-direction: column;
+                    flex-basis: 300px;
+                    transition: opacity 300ms;
+                    white-space: nowrap;
+                    width: 320px;
+                    line-height: 0;
+                    font-weight: 700;
+                    display: inline-block;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    &:hover {
+                        background-color: rgba(0, 0, 0, 0.75);
+                        box-shadow: 0 0 10px 2px var(--mc);
+                        .username {
+                            color: var(--sc);
+                        }
+                        .friendsColumnName-1zBOKm {
+                            .avatarSmall--gkJKA {
+                                opacity: 1;
+                                transform: scale(1) perspective(1px);
+                                box-shadow: none;
+                            }
+                        }
+                        .friendsColumnStatus-ZH4ho2 {
+                            .statusText-2F9zIF {
+                                color: var(--mc);
+                                opacity: 1;
+                            }
+                        }
+                        .friendsColumnActions-1LT3_M {
+                            opacity: 0.8;
+                            .friendsAction-__WNE9 {
+                                transform: translateX(0);
+                            }
+                        }
+                    }
+                    &:active {
+                        box-shadow: 0 0 10px 2px var(--mc);
+                        transform: scale(.98);
+                    }
+                    .friendsColumnName-1zBOKm {
+                        color: var(--sc);
+                        .avatarSmall--gkJKA {
+                            top: 25px;
+                            left: 5px;
+                            width: 85px;
+                            height: 85px;
+                            background-size: 85px 85px;
+                            box-shadow: none;
+                            opacity: 0.8;
+                            transition: opacity 500ms, transform .2s linear, box-shadow .2s linear;
+                            transform: scale(0.97) perspective(1px);
+                        }
+                        .discord-tag {
+                            display: block;
+                            position: absolute;
+                            top: 20px;
+                            overflow: visible;
+                            z-index: 10;
+                            left: 115px;
+                            text-shadow: 1px 1px 1px hsl(0, 0%, 0%);
+                            .discriminator {
+                                visibility: visible;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                    .friendsColumnStatus-ZH4ho2 {
+                        color: black;
+                        width: 100%;
+                        left: 2px;
+                        justify-content: center;
+                        height: 17px;
+                        border-radius: 5px 5px 0 0;
+                        top: 0;
+                        opacity: 0.7;
+                        z-index: 0;
+                        .status-mz5rqq {
+                            width: 100%;
+                            left: 2px;
+                            justify-content: center;
+                            height: 17px;
+                            border-radius: 5px 5px 0 0;
+                            top: 0;
+                            opacity: 0.7;
+                            z-index: 0;
+                        }
+                        .statusText-2F9zIF {
+                            color: #fff;
+                            font-weight: 700;
+                            opacity: 0.8;
+                            max-width: 90%;
+                            font-size: 14px;
+                            line-height: normal;
+                            bottom: 0;
+                            transition: color 300ms;
+                            position: absolute;
+                            z-index: 0;
+                        }
+                        .status.status-unknown {
+                            border: none;
+                        }
+                    }
+                    .friendsColumn-eVHFqJ {
+                        position: absolute;
+                        backface-visibility: hidden;
+                    }
+                    .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
+                        margin: 0;
+                    }
+                    .friendsColumnGuilds-2we6jb {
+                        .iconSizeSmall-3aWgx9 {
+                            background-color: rgba(0, 0, 0, 0.4);
+                        }
+                        .more-mutual-guilds-btn {
+                            &:before {
+                                content: "";
+                                background-color: rgba(0, 0, 0, 0.4);
+                                background-size: 18px 18px;
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                border-radius: 5px;
+                                width: 30px;
+                                height: 30px;
+                                box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.5);
+                                position: relative;
+                                top: 0;
+                            }
+                            border: 0;
+                            color: transparent;
+                            &:hover {
+                                border: 0;
+                                color: transparent;
+                            }
+                        }
+                    }
+                    .friendsColumnActions-1LT3_M {
+                        top: 45px;
+                        right: 10px;
+                        opacity: 0;
+                        transition: opacity 400ms;
+                        visibility: visible;
+                        .friendsAction-__WNE9 {
+                            width: 24px;
+                            height: 24px;
+                            transform: translateX(120px);
+                            transition: transform 400ms, background 400ms;
+                            &:first-child {
+                                border-radius: 6px;
+                                background-color: rgba(0, 0, 0, 0.5);
+                                box-shadow: 0 0 10px 0 var(--mc);
+                                transition: 600ms;
+                            }
+                            &:nth-child(2) {
+                                border-radius: 6px;
+                                background-color: rgba(0, 0, 0, 0.5);
+                                box-shadow: 0 0 10px 0 var(--mc);
+                                transition: 800ms;
+                            }
+                            &:hover {
+                                background-color: rgba(0, 255, 9, 0.5);
+                            }
+                            &:nth-child(3) {
+                                transition: 1000ms;
+                            }
+                        }
+                    }
+                }
+                .friendsTableHeader-32yE7d {
+                    .friendsColumn-eVHFqJ {
+                        color: var(--sc);
+                    }
+                    display: none;
+                }
+                .friendsRow-2yicud+.friendsRow-2yicud {
+                    border-top: none;
+                }
+                .friendsTableBody-1ZhKif {
+                    .friendsRow-2yicud {
+                        .friendsColumnGuilds-2we6jb {
+                            top: 90px;
+                            left: 115px;
+                            width: 150px;
+                            display: flex;
+                        }
+                        &:hover {
+                            .friendsColumnGuilds-2we6jb {
+                                .iconSizeSmall-3aWgx9 {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }
+                    padding: 0;
+                    flex-flow: row wrap;
+                    height: calc(100vh - 80px);
+                }
+                .online-2S838R {
+                    background-color: var(--online);
+                    box-shadow: none !important;
+                }
+                .streaming-2_dnHe {
+                    background-color: var(--stream);
+                    box-shadow: none !important;
+                }
+                .dnd-1_xrcq {
+                    background-color: var(--dnd);
+                    box-shadow: none !important;
+                }
+                .idle-3DEnRT {
+                    background-color: var(--idle);
+                    box-shadow: none !important;
+                }
+                .invisible-1kp8Z0 {
+                    background-color: var(--invis);
+                    box-shadow: none !important;
+                }
+                .offline-3qoTek {
+                    background-color: var(--offline);
+                    box-shadow: none !important;
+                }
+                .unknown-Ms2zdV {
+                    background-color: var(--offline);
+                    box-shadow: none !important;
+                }
+            }
+            .friends-header {
+                .tabBar-1E2ExX {
+                    .item-3HpYcP {
+                        .badge-1GsMF2 {
+                            background: rgba(0, 0, 0, 0.4);
+                            color: var(--mc);
+                            opacity: 0.7;
+                            transition: opacity 500ms;
+                        }
+                        color: var(--sc);
+                    }
+                }
+            }
+        }
+        .friendsTable-133bsv {
+            .friendsRow-2yicud {
+                .friendsColumnActions-1LT3_M {
+                    .friendsAction-__WNE9.friendsActionRemove-qu8nnl {
+                        background-color: rgba(210, 20, 20, 0.5);
+                        &:hover {
+                            background-color: #d21414 !important;
+                        }
+                    }
+                }
+            }
+        }
+        .friendsTableBody-1ZhKif[class*="scroller"] {
+            .friendsRow-2yicud {
+                min-width: 20%;
+            }
+        }
+    }
+    .container-3gCOGc {
+        .friendsTable-133bsv {
+            .friendsTableBody-1ZhKif {
+                .friendsRow-2yicud {
+                    .friendsColumnGuilds-2we6jb {
+                        .iconSizeSmall-3aWgx9 {
+                            opacity: 0.8;
+                            transition: opacity 500ms;
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}

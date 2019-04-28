@@ -1,0 +1,95 @@
+@mixin autoHideGuildsChannels {
+    #app-mount {
+        .wrapper-1Rf91z {
+            width: 0;
+            border-right: var(--guildBarSize) solid var(--guildBar);
+            border-radius: 2px;
+            transition: all var(--guildsSpeed) ease;
+            pointer-events: auto;
+            &:hover {
+                border-right-width: 0;
+                width: 70px;
+                transition: all var(--guildsSpeed) ease;
+                pointer-events: auto;
+            }
+            &:hover+div {
+                .channels-Ie2l6A {
+                    border-right-width: 0;
+                    width: 240px;
+                    transition: all var(--channelsSpeed) ease;
+                    .header-2o-2hj {
+                        left: 0;
+                        transition: all var(--channelsSpeed) cubic-bezier(0.53, 0.89, 0.57, 1);
+                    }
+                    .channelNotices-41mJbj {
+                        display: block;
+                        transition: var(--channelsSpeed) ease;
+                    }
+                    .container-1UB9sr {
+                        margin-left: 0;
+                        transition: var(--channelsSpeed) ease;
+                        z-index: 1;
+                    }
+                    .container-2Thooq {
+                        margin-left: 0;
+                        transition: var(--channelsSpeed) ease;
+                        z-index: 1;
+                    }
+                }
+            }
+        }
+        .channels-Ie2l6A {
+            width: 0;
+            border-right: var(--channelBarSize) solid var(--channelBar);
+            transition: all var(--channelsSpeed) ease;
+            &:hover {
+                border-right-width: 0;
+                width: 240px;
+                transition: all var(--channelsSpeed) ease;
+                .header-2o-2hj {
+                    left: 0;
+                    transition: all var(--channelsSpeed) cubic-bezier(0.53, 0.89, 0.57, 1);
+                }
+                .channelNotices-41mJbj {
+                    display: block;
+                    transition: var(--channelsSpeed) ease;
+                }
+                .container-1UB9sr {
+                    margin-left: 0;
+                    transition: var(--channelsSpeed) ease;
+                    z-index: 1;
+                }
+                .container-2Thooq {
+                    margin-left: 0;
+                    transition: var(--channelsSpeed) ease;
+                    z-index: 1;
+                }
+            }
+            .channelNotices-41mJbj {
+                display: none;
+            }
+        }
+        .container-2Rl01u {
+            border-right-width: 0;
+            width: 240px;
+            transition: all var(--channelsSpeed) ease;
+        }
+        .header-2o-2hj {
+            left: -240px;
+            transition: all var(--channelsSpeed) ease;
+        }
+        .container-1UB9sr {
+            margin-left: 10px;
+            transition: all var(--channelsSpeed) ease;
+            z-index: -1;
+        }
+        .container-2Thooq {
+            margin-left: 10px;
+            transition: all var(--channelsSpeed) ease;
+            z-index: -1;
+        }
+        .base-3dtUhz {
+            border-radius: 0;
+        }
+    }
+}

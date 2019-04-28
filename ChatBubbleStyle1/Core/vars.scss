@@ -1,0 +1,8 @@
+$cba1: #00000080 !default;
+$round2: 15px !default;
+$cbStyle1: true !default;
+
+:root {
+    --cba1: #{$cba1};
+    --round2: #{$round2};
+}

@@ -1,0 +1,11 @@
+$font: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif !default;
+$fontSize: .9375rem !default;
+$textColour: #fff !default;
+$gFonts: false !default;
+$customFonts: true !default;
+
+:root {
+--font: #{$font};
+--fontSize: #{$fontSize};
+--textColour: #{$textColour};
+}

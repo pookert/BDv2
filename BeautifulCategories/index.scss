@@ -1,0 +1,3 @@
+@import 'Core/vars';
+@import 'Core/beautifulCategories';
+@if $beautifulCategories == true {@include beautifulCategories;}

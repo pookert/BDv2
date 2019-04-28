@@ -1,0 +1,23 @@
+$sPickerItemBGColour: rgba(0, 0, 0, .5) !default;
+
+$sPickerOnlineBGColour: #43b581 !default;
+$sPickerIdleBGColour: #faa61a !default;
+$sPickerDNDBGColour: #f04747 !default;
+$sPickerInviBGColour: #1a36fa !default;
+$fullScreenStatus: true !default;
+
+:root {
+    
+    --sPickerItemBGColour: #{$sPickerItemBGColour};
+
+    --sPickerOnlineBGColour: #{$sPickerOnlineBGColour};
+    --sPickerIdleBGColour: #{$sPickerIdleBGColour};
+    --sPickerDNDBGColour: #{$sPickerDNDBGColour};
+    --sPickerInviBGColour: #{$sPickerInviBGColour};
+
+    --sPickerOnlineBGIcon: url('https://i.imgur.com/YIHQ2Y5.png');
+    --sPickerIdleBGIcon: url('https://i.imgur.com/cHsAK5U.png');
+    --sPickerDNDBGIcon: url('https://i.imgur.com/8EXfe4Q.png');
+    --sPickerInviBGIcon: url('https://i.imgur.com/l9PTLnq.png');
+
+}

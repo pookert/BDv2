@@ -1,0 +1,192 @@
+{
+	"info": {
+		"name": "Custom Chat Avatars",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0b",
+		"description": "Larger chat avatars, adjustable size. Also cleans up the chat a bit.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "size1",
+					"type": "text",
+					"value": "50px",
+					"text": "Avatar Size",
+					"hint": "This scales the rest of the chat with it."
+				},
+				{
+					"id": "round1",
+					"type": "text",
+					"value": "5%",
+					"text": "Avatar Roundness",
+					"hint": "0 = Square, 50 = Circle"
+				},
+				{
+					"id": "margin1",
+					"type": "text",
+					"value": "0px",
+					"text": "Move Avatar Left/Right",
+					"hint": "-10 = 10px left, 10 would be 10px right"
+				},
+				{
+					"id": "margin2",
+					"type": "text",
+					"value": "0px",
+					"text": "Move avatar Up/Down",
+					"hint": "-10 = 10px up, 10 would be 10px down"
+				},
+				{
+					"id": "compact",
+					"type": "number",
+					"value": "15",
+					"text": "Chat message compact",
+					"hint": "Discord Default 20. 5 min, max ??"
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to theme default",
+			"icon_path": "/Assets/chatAvatar1.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "size1",
+							"type": "text",
+							"value": "50px",
+							"text": "Avatar Size"
+						},
+						{
+							"id": "round1",
+							"type": "text",
+							"value": "5%",
+							"text": "Avatar Roundness"
+						},
+						{
+							"id": "margin1",
+							"type": "text",
+							"value": "0px",
+							"text": "Move Avatar Left/Right"
+						},
+						{
+							"id": "margin2",
+							"type": "text",
+							"value": "0px",
+							"text": "Move avatar Up/Down"
+						},
+						{
+							"id": "compact",
+							"type": "number",
+							"value": "15",
+							"text": "Chat message compact",
+							"hint": "Discord Default 20. 5 min, max ??"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "scheme-1",
+			"name": "Discord Default",
+			"icon_path": "/Assets/chatAvatar2.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "size1",
+							"type": "text",
+							"value": "40px",
+							"text": "Avatar Size"
+						},
+						{
+							"id": "round1",
+							"type": "text",
+							"value": "50%",
+							"text": "Avatar Roundness"
+						},
+						{
+							"id": "margin1",
+							"type": "text",
+							"value": "0px",
+							"text": "Move Avatar Left/Right"
+						},
+						{
+							"id": "margin2",
+							"type": "text",
+							"value": "0px",
+							"text": "Move avatar Up/Down"
+						},
+						{
+							"id": "compact",
+							"type": "number",
+							"value": "20",
+							"text": "Chat message compact",
+							"hint": "Discord Default 20. 5 min, max ??"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "scheme-2",
+			"name": "Round/Small/Compact",
+			"icon_path": "/Assets/chatAvatar3.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "size1",
+							"type": "text",
+							"value": "30px",
+							"text": "Avatar Size"
+						},
+						{
+							"id": "round1",
+							"type": "text",
+							"value": "50%",
+							"text": "Avatar Roundness"
+						},
+						{
+							"id": "margin1",
+							"type": "text",
+							"value": "0px",
+							"text": "Move Avatar Left/Right"
+						},
+						{
+							"id": "margin2",
+							"type": "text",
+							"value": "0px",
+							"text": "Move avatar Up/Down"
+						},
+						{
+							"id": "compact",
+							"type": "number",
+							"value": "5",
+							"text": "Chat message compact",
+							"hint": "Discord Default 20. 5 min, max ??"
+						}
+					]
+				}
+			]
+		}
+	]
+}

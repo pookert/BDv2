@@ -1,0 +1,16 @@
+$guildBarSize: 10 !default;
+$guildBar:#6b00c7 !default;
+$channelBar:#00d0ff !default;
+$channelBarSize: 10 !default;
+$channelsSpeed: 400ms !default ;
+$guildsSpeed: 400ms !default;
+$autoHideGuildsChannels: true !default;
+
+:root {
+	--guildBarSize: #{$guildBarSize}px;
+	--guildBar: #{$guildBar};
+	--channelBar: #{$channelBar};
+	--channelBarSize: #{$channelBarSize}px;
+	--channelsSpeed: #{$channelsSpeed};
+	--guildsSpeed: #{$guildsSpeed};
+}

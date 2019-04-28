@@ -1,0 +1,20 @@
+$btnBg: #303235 !default;
+$btnColour: #8a8e94 !default;
+$btnBorder: #4a4a4a !default;
+$msgBg: #32353b !default;
+$msgColour: #fff !default;
+$msgBorder: #1f1f21 !default;
+$hideAll: block !default;
+$blockedMsgs: true !default;
+
+:root {
+    --btnBg: #{$btnBg};
+    --btnColour: #{$btnColour};
+    --btnBorder: #{$btnBorder};
+    
+    --msgBg: #{$msgBg};
+    --msgColour: #{$msgColour};
+    --msgBorder: #{$msgBorder};
+
+    --hideAll: #{$hideAll};
+}

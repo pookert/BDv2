@@ -1,0 +1,11 @@
+@import 'glowStatus';
+@import 'fullSizePfp';
+@import 'fullScreenStatus';
+
+$glowStatus: true !default;
+$fullSizePfp: true !default;
+$fullScreenStatus: true !default;
+
+@if $glowStatus == true {@include glowStatus;}
+@if $fullSizePfp == true {@include fullSizePfp;}
+@if $fullScreenStatus == true {@include fullScreenStatus;}

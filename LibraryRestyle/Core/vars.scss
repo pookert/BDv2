@@ -1,0 +1,8 @@
+$bg1: rgba(0,0,0, .5) !default;
+$bc1: rgba(255, 0, 0, 0.6) !default;
+$libraryRestyle: true !default;
+
+:root {
+    --bg1: #{$bg1};
+    --bc1: #{$bc1};
+}

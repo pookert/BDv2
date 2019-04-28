@@ -1,0 +1,95 @@
+@mixin oldTitleBar {
+    #app-mount {
+        .titleWrapper-3Vi_wz {
+            >div {
+                margin-right: 98px;
+            }
+        }
+        .divider-1GKkV3 {
+            margin: 0px 90px 0px -85px;
+        }
+        .container-3gCOGc {
+            .iconMargin-2Js7V9 {
+                margin: 0px 90px 0px -85px;
+            }
+        }
+        .typeWindows-1za-n7 {
+            height: 0;
+            margin-top: 0;
+        }
+        .standardSidebarView-3F1I7i {
+            top: 0;
+        }
+        .winButtonClose-1HsbF- {
+            svg {
+                display: none;
+            }
+            opacity: 1;
+            background: url(map-get($min, url)) center;
+            background-color: rgba(0, 0, 0, 0);
+            &:hover {
+                background-color: rgba(240, 71, 71, 0.5);
+            }
+        }
+        .winButtonMinMax-PBQ2gm {
+            svg {
+                display: none;
+            }
+            opacity: 1;
+            background: url(map-get($fullScreen, url)) center;
+            &:last-child {
+                background: url(map-get($close, url)) center;
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.05);
+                }
+            }
+        }
+        .wordmark-2iDDfm {
+            display: none;
+        }
+        .titleBar-AC4pGV {
+            &:after {
+                background: rgba(255, 0, 0, 0);
+                content: "";
+                position: relative;
+                height: 14px;
+                width: 100vw;
+                top: -15px;
+                left: 85px;
+                -webkit-app-region: drag;
+            }
+            position: absolute;
+            top: 0px;
+            right: 0;
+            padding: 15px 0 0 0;
+            z-index: 401;
+        }
+        .winButton-iRh8-Z {
+            left: -6px;
+            top: -3px;
+        }
+        .titleCall-_b9o8P {
+            padding-right: 90px;
+            .flex-1xMQg5.horizontal-1ae9ci {
+                margin-right: 0;
+            }
+        }
+        .headerBar-UHpsPw {
+            padding-right: 90px;
+            .flex-1xMQg5.horizontal-1ae9ci {
+                margin-right: 0;
+            }
+        }
+        .iconBadge-2dji3k {
+            left: 12px;
+        }
+        .topic-2QX7LI {
+            color: #fff;
+        }
+        .title-3qD0b- {
+            .flex-1xMQg5.horizontal-1ae9ci {
+                margin-right: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+$sWidth2: 70% !default; 
+$sHeight2: 90% !default; 
+$sBackdrop2: rgba(0, 0, 0, 0.6) !default;
+$sRadius2: 6px !default;
+$customUserSettings: true !default;
+
+:root {
+    --sWidth2: #{$sWidth2} ; 
+    --sHeight2: #{$sHeight2} ; 
+    --sBackdrop2: #{$sBackdrop2} ;
+    --sRadius2: #{$sRadius2} ;
+}

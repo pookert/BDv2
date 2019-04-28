@@ -1,0 +1,44 @@
+@mixin blockedMsgs {
+    #app-mount {
+        .chat-3bRxxu {
+            .messageGroupBlocked-3wrQQX {
+                display: var(--hideAll) !important;
+                width: 80px;
+                border-radius: 6px;
+                float: right;
+                margin: 6px;
+                background: transparent;
+                border-color: transparent;
+                .messageGroupBlockedBtn-1PBBh- {
+                    background: var(--btnBg);
+                    color: var(--btnColour);
+                    position: relative;
+                    box-shadow: 0 0 0 1px var(--btnBorder);
+                    border-radius: 6px;
+                }
+                .markup-2BOw-j {
+                    color: var(--msgColour);
+                }
+            }
+            .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
+                .messageGroupBlockedBtn-1PBBh- {
+                    border-radius: 4px 4px 0 0;
+                    top: 0;
+                    box-shadow: none;
+                }
+                width: initial;
+                margin: initial;
+                float: initial;
+                margin: 6px;
+                background: var(--msgBg);
+                border-color: var(--msgBorder);
+            }
+            .dividerContent-2L12VI {
+                width: 100%;
+            }
+            .containerCozyBounded-1rKFAn {
+                overflow: visible;
+            }
+        }
+    }    
+}

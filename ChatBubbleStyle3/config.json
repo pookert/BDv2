@@ -1,0 +1,96 @@
+{
+	"info": {
+		"name": "Chat Bubble Style 3",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Very simple chat bubble similar to style 2.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "cbBg3",
+					"type": "colour",
+					"value": "#00000066",
+					"text": "Bubble background",
+					"hint": ""
+				},
+				{
+					"id": "cb3Border",
+					"type": "text",
+					"value": "0px 0px",
+					"text": "Bubble glow or border",
+					"hint": "None by default. Glow 4px 0px  Border 0px 1px"
+				},
+				{
+					"id": "cb3BColour",
+					"type": "color",
+					"value": "#000",
+					"text": "Bubble glow or border colour",
+					"hint": ""
+				},
+				{
+					"id": "cb3Round",
+					"type": "text",
+					"value": "15px",
+					"text": "Bubble roundness",
+					"hint": ""
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to default",
+			"icon_path": "Assets/defaultBlank.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "cbBg3",
+							"type": "colour",
+							"value": "#00000066",
+							"text": "Bubble background",
+							"hint": ""
+						},
+						{
+							"id": "cb3Border",
+							"type": "text",
+							"value": "0px 0px",
+							"text": "Bubble glow or border",
+							"hint": "None by default. Glow 4px 0px  Border 0px 1px"
+						},
+						{
+							"id": "cb3BColour",
+							"type": "color",
+							"value": "#000",
+							"text": "Bubble glow or border colour",
+							"hint": ""
+						},
+						{
+							"id": "cb3Round",
+							"type": "text",
+							"value": "15px",
+							"text": "Bubble roundness",
+							"hint": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

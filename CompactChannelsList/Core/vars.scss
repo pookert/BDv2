@@ -1,0 +1,8 @@
+$hGlow: #f00 !default;
+$iconColour: #fff !default;
+$compactChannelsList: true !default;
+
+:root {
+	--hGlow: #{$hGlow};
+	--iconColour: #{$iconColour};
+}

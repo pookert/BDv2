@@ -1,0 +1,10 @@
+$channelSpeed2: 250ms !default;
+$channel2: 70 !default;
+$channelHeight2: 98% !default;
+$autoHideChannels: true !default;
+
+:root {
+    --channelSpeed2: #{$speed2};
+    --channel2: #{$channel2}px;
+    --channelHeight2: #{$channelHeight2};
+}

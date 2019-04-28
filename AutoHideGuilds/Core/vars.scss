@@ -1,0 +1,11 @@
+$gSideBar: #6b00c7 !default;
+$gSideBarSize: 10 !default;
+$gSpeed2: 250ms !default;
+$autoHideGuilds: true !default;
+
+:root {
+	
+	--gSideBar: #{$gSideBar};
+	--gSpeed2: #{$gSpeed2};
+	--gSideBarSize: #{$gSideBarSize}px;
+}

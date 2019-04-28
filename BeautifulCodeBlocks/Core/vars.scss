@@ -1,0 +1,10 @@
+$cbBG: rgba(0, 0, 0, 0.5) !default;
+$mainColour: rgba(0, 0, 0, 0.5) !default;
+$slColour: rgb(0, 0, 0) !default;
+$codeBlocks: true !default;
+
+:root {
+	--cbBG: #{$cbBG};
+	--mainColour: #{$mainColour};
+	--slColour: #{$slColour};
+}

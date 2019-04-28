@@ -1,0 +1,12 @@
+@mixin cbStyle3 {
+    #app-mount {
+        .chat-3bRxxu {
+            .containerCozy-jafyvG {
+                background: var(--cbBG3);
+                box-shadow: 0 0 var(--cb3Border) var(--cb3BColour);
+                margin: 10px;
+                border-radius: var(--cb3Round);
+            }
+        }
+    }
+}

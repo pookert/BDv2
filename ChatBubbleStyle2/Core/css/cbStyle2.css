@@ -1,0 +1,11 @@
+#app-mount .chat-3bRxxu .containerCozy-jafyvG {
+    background: var(--cb2BG);
+    box-shadow: var(--cb2Glow1) var(--cb2Glow2);
+    margin: 15px;
+    border-radius: var(--cb2Rad1)
+}
+
+#app-mount .chat-3bRxxu .containerCozy-jafyvG:hover {
+    background: var(--cb2hBG);
+    box-shadow: var(--cb2hGlow1) var(--cb2hGlow2)
+}

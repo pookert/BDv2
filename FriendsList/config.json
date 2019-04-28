@@ -1,0 +1,152 @@
+{
+	"info": {
+		"name": "Friends List Restyle",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Card/Box style friends list with animations.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "mc",
+					"type": "colour",
+					"value": "rgba(0, 185, 255, 0.8)",
+					"text": "Main Colour",
+					"hint": ""
+				},
+				{
+					"id": "sc",
+					"type": "colour",
+					"value": "rgba(0, 185, 255, 0.8)",
+					"text": "Secondary Colour",
+					"hint": ""
+				},
+				{
+					"id": "online",
+					"type": "colour",
+					"value": "#43b581",
+					"text": "Online Colour",
+					"hint": ""
+				},
+				{
+					"id": "offline",
+					"type": "colour",
+					"value": "#747f8d",
+					"text": "Offline Colour",
+					"hint": ""
+				},
+				{
+					"id": "idle",
+					"type": "colour",
+					"value": "#faa61a",
+					"text": "Idle Colour",
+					"hint": ""
+				},
+				{
+					"id": "dnd",
+					"type": "colour",
+					"value": "#f04747",
+					"text": "DnD Colour",
+					"hint": ""
+				},
+				{
+					"id": "stream",
+					"type": "colour",
+					"value": "#593695",
+					"text": "Stream Colour",
+					"hint": ""
+				},
+				{
+					"id": "invis",
+					"type": "colour",
+					"value": "#1a36fa",
+					"text": "Invisible Colour",
+					"hint": "Only you can see this when you are invisible."
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to default",
+			"icon_path": "",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "mc",
+							"type": "colour",
+							"value": "rgba(0, 185, 255, 0.8)",
+							"text": "Main Colour",
+							"hint": ""
+						},
+						{
+							"id": "sc",
+							"type": "colour",
+							"value": "rgba(0, 185, 255, 0.8)",
+							"text": "Secondary Colour",
+							"hint": ""
+						},
+						{
+							"id": "online",
+							"type": "colour",
+							"value": "#43b581",
+							"text": "Online Colour",
+							"hint": ""
+						},
+						{
+							"id": "offline",
+							"type": "colour",
+							"value": "#747f8d",
+							"text": "Offline Colour",
+							"hint": ""
+						},
+						{
+							"id": "idle",
+							"type": "colour",
+							"value": "#faa61a",
+							"text": "Idle Colour",
+							"hint": ""
+						},
+						{
+							"id": "dnd",
+							"type": "colour",
+							"value": "#f04747",
+							"text": "DnD Colour",
+							"hint": ""
+						},
+						{
+							"id": "stream",
+							"type": "colour",
+							"value": "#593695",
+							"text": "Stream Colour",
+							"hint": ""
+						},
+						{
+							"id": "invis",
+							"type": "colour",
+							"value": "#1a36fa",
+							"text": "Invisible Colour",
+							"hint": "Only you can see this when you are invisible."
+						}
+					]
+				}
+			]
+		}
+	]
+}

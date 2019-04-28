@@ -1,0 +1,18 @@
+$cb2BG: #00000066 !default;
+$cb2hBG: #000000cc !default;
+$cb2Rad1: 15px !default;
+$cb2Glow1:  0 0 4px 0 !default;
+$cb2Glow2: #ff0000e6 !default;
+$cb2hGlow1: 0 0 7px 0 !default;
+$cb2hGlow2: #ff0000e6 !default;
+$cbStyle2: true !default;
+
+:root {
+--cb2BG: #{$cb2BG};
+--cb2hBG: #{$cb2hBG};
+--cb2Rad1: #{$cb2Rad1};
+--cb2Glow1: #{$cb2Glow1};
+--cb2Glow2: #{$cb2Glow2};
+--cb2hGlow1: #{$cb2hGlow1};
+--cb2hGlow2: #{$cb2hGlow2};
+}

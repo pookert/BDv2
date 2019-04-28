@@ -1,0 +1,32 @@
+$ssColourInvite: #7289da !default;
+$ssColourServerSettings: #046d94 !default;
+$ssColourCreateChannel: #daa520 !default;
+$ssColourCreateCategory: #751e5f !default;
+$ssColourNotification: #157563 !default;
+$ssColourPrivacy: #497388 !default;
+$ssColourNickname: #714484 !default;
+$ssColourHidden: #cc6699 !default;
+$ssColourLeave: #f04747 !default;
+$fullScreenServerSettings: true !default;
+
+:root{
+	--ssColourInvite: #{$ssColourInvite};
+	--ssColourServerSettings: #{$ssColourServerSettings};
+	--ssColourCreateChannel: #{$ssColourCreateChannel};
+	--ssColourCreateCategory: #{$ssColourCreateCategory};
+	--ssColourNotification: #{$ssColourNotification};
+	--ssColourPrivacy: #{$ssColourPrivacy};
+	--ssColourNickname: #{$ssColourNickname};
+	--ssColourHidden: #{$ssColourHidden};
+	--ssColourLeave: #{$ssColourLeave};
+    --ssIconInvite: url('https://i.imgur.com/SiMgwSG.png');
+    --ssIconServerSettings: url('https://i.imgur.com/taaCQRG.png');
+    --ssIconCreateChannel: url('https://i.imgur.com/TKv6GqH.png');
+    --ssIconCreateCategory: url('https://i.imgur.com/j9RTCeG.png');
+    --ssIconNotification: url('https://i.imgur.com/kObmtKM.png');
+    --ssIconPrivacy: url('https://i.imgur.com/CxEP4nO.png');
+    --ssIconNickname: url('https://i.imgur.com/nov8ZEe.png');
+    --ssIconHiddenIsHidden: url('https://i.imgur.com/EqC42BO.png');
+    --ssIconHiddenIsShown: url('https://i.imgur.com/B0S4Sq8.png');
+    --ssIconLeave: url('https://i.imgur.com/NiaBFUS.png');
+}

@@ -1,0 +1,63 @@
+$mc: #0000ffcc !default;
+$sc: #ff000066 !default;
+$bgBrightness: rgba(0,0,0,.4) !default; 
+
+$mainBg: url('assets/nova.jpg') !default;
+$homeIcon: url('https://i.imgur.com/pIiNaUN.gif') !default;
+
+$text: #fff !default;
+$round: 30% !default;
+
+$bg: #000000e6 !default;
+
+$size1: 60px !default;
+$round1: $round !default;
+$margin1: 0px !default;
+$margin2: 0px !default;
+$compact: 10px !default;
+$shadow1: 0 0 0px #000 !default;
+
+$round: 50% !default;
+$sGlow: 5px 2px !default;
+
+$online: #43b581 !default;
+$offline: #747f8d !default;
+$idle: #faa61a !default;
+$stream: #593695 !default;
+$dnd: #f04747 !default;
+$invis: #1a36fa !default;
+
+$LineColour: #fff !default;
+$NameColour: #fff !default;
+
+:root {
+    --mc: #{$mc};
+    --sc: #{$sc};
+	--bgBrightness: #{$bgBrightness}; /* Chat background darkness */
+	--homeIcon: #{$homeIcon};
+
+	--text: #{$text};
+    --round: #{$round};
+
+	--bg: #{$bg};
+
+	--size1: #{$size1};
+	--round1: #{$round1};
+	--margin1: #{$margin1}; 
+	--margin2: #{$margin2};
+	--shadow1: #{$shadow1}; 
+	--compact: #{$compact}; 
+
+    --round: #{$round};
+    --sGlow: #{$sGlow};
+
+    --online: #{$online};
+    --offline: #{$offline};
+    --idle: #{$idle};
+    --stream: #{$stream};
+    --dnd: #{$dnd};
+    --invis: #{$invis};
+
+    --LineColour: #{$LineColour};
+    --NameColour: #{$NameColour};
+}

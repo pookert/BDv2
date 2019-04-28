@@ -1,0 +1,181 @@
+{
+	"info": {
+		"name": "Beautiful Code Blocks",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Styled code blocks. Comes with preset themes.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "cbBG",
+					"type": "colour",
+					"value": "rgba(0, 0, 0, 0.5)",
+					"text": "Main background colour",
+					"hint": ""
+				},
+				{
+					"id": "mainColour",
+					"type": "colour",
+					"value": "rgba(0, 0, 0, 0.2)",
+					"text": "Main line colour",
+					"hint": ""
+				},
+				{
+					"id": "slColour",
+					"type": "colour",
+					"value": "rgba(0, 0, 0, 0.5)",
+					"text": "Secondary line colour",
+					"hint": ""
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to default",
+			"icon_path": "Assets/default.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "cbBG",
+							"type": "colour",
+							"value": "rgba(0, 0, 0, 0.5)",
+							"text": "Main background colour",
+							"hint": ""
+						},
+						{
+							"id": "mainColour",
+							"type": "colour",
+							"value": "rgba(0, 0, 0, 0.2)",
+							"text": "Main line colour",
+							"hint": ""
+						},
+						{
+							"id": "slColour",
+							"type": "colour",
+							"value": "rgba(0, 0, 0, 0.5)",
+							"text": "Secondary line colour",
+							"hint": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "scheme-1",
+			"name": "Reddish",
+			"icon_path": "Assets/reddish.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "cbBG",
+							"type": "colour",
+							"value": "rgba(0, 0, 0, 0.7)",
+							"text": "Main background colour",
+							"hint": ""
+						},
+						{
+							"id": "mainColour",
+							"type": "colour",
+							"value": "rgba(210, 4, 4, 0.5)",
+							"text": "Main line colour",
+							"hint": ""
+						},
+						{
+							"id": "slColour",
+							"type": "colour",
+							"value": "rgba(168, 3, 74, 0.5)",
+							"text": "Secondary line colour",
+							"hint": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "scheme-2",
+			"name": "Deep Blue",
+			"icon_path": "Assets/deepblue.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "cbBG",
+							"type": "colour",
+							"value": "#000",
+							"text": "Main background colour",
+							"hint": ""
+						},
+						{
+							"id": "mainColour",
+							"type": "colour",
+							"value": "rgba(38, 4, 147, 0.6)",
+							"text": "Main line colour",
+							"hint": ""
+						},
+						{
+							"id": "slColour",
+							"type": "colour",
+							"value": "rgba(28, 16, 171, 0.3)",
+							"text": "Secondary line colour",
+							"hint": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "scheme-3",
+			"name": "Solarized",
+			"icon_path": "Assets/solarized.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "cbBG",
+							"type": "colour",
+							"value": "#000",
+							"text": "Main background colour",
+							"hint": ""
+						},
+						{
+							"id": "mainColour",
+							"type": "colour",
+							"value": "#073642",
+							"text": "Main line colour",
+							"hint": ""
+						},
+						{
+							"id": "slColour",
+							"type": "colour",
+							"value": "#002b36",
+							"text": "Secondary line colour",
+							"hint": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

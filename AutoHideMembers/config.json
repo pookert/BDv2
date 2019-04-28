@@ -1,0 +1,82 @@
+{
+	"info": {
+		"name": "Auto Hide Members",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Hides members list and expands on hover.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "memberBarColour",
+					"type": "color",
+					"value": "#f00",
+					"text": "Sidebar colour",
+					"hint": ""
+				},
+				{
+					"id": "memberBarSize",
+					"type": "number",
+					"value": "10",
+					"text": "Sidebar Size",
+					"hint": "Default = 10"
+				},
+				{
+					"id": "memberSpeed",
+					"type": "text",
+					"value": "500ms",
+					"text": "Transition Speed",
+					"hint": ""
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to default",
+			"icon_path": "Assets/defaultBlank.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "memberBarColour",
+							"type": "color",
+							"value": "#f00",
+							"text": "Sidebar colour",
+							"hint": ""
+						},
+						{
+							"id": "memberBarSize",
+							"type": "number",
+							"value": "10",
+							"text": "Sidebar Size",
+							"hint": "Default = 10"
+						},
+						{
+							"id": "memberSpeed",
+							"type": "text",
+							"value": "500ms",
+							"text": "Transition Speed",
+							"hint": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

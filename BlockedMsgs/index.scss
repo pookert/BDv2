@@ -1,0 +1,3 @@
+@import 'Core/vars';
+@import 'Core/blockedMsgs.scss';
+@if $blockedMsgs == true {@include blockedMsgs;}

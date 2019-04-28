@@ -1,0 +1,3 @@
+@import 'Core/vars';
+@import 'Core/fullSizePfp';
+@if $fullSizePfp == true {@include fullSizePfp;}

@@ -1,0 +1,12 @@
+$epHeight: 400px !default;
+$epWidth: 450px !default;
+$emojiSize: 2rem !default;
+$epItemW: 8.5% !default;
+$customEmojiPicker: true !default;
+
+:root {
+    --epHeight: #{$epHeight};
+    --epWidth: #{$epWidth};
+   	--emojiSize: #{$emojiSize};
+    --epItemW: #{$epItemW};
+}

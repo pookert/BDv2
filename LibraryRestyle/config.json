@@ -1,0 +1,68 @@
+{
+	"info": {
+		"name": "Library Restyle",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Card/Box style library games with animations. Similar to the Friends List restyle.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "bg1",
+					"type": "colour",
+					"value": "rgba(0,0,0, .5)",
+					"text": "Background transparency/colour",
+					"hint": ""
+				},
+				{
+					"id": "bc1",
+					"type": "colour",
+					"value": "rgba(255, 0, 0, 0.6)",
+					"text": "Box-shadow",
+					"hint": ""
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to default",
+			"icon_path": "",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "bg1",
+							"type": "colour",
+							"value": "rgba(0,0,0, .5)",
+							"text": "Background transparency/colour",
+							"hint": ""
+						},
+						{
+							"id": "bc1",
+							"type": "colour",
+							"value": "rgba(255, 0, 0, 0.6)",
+							"text": "Box-shadow",
+							"hint": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

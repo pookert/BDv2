@@ -1,0 +1,94 @@
+$mainBG: #222 !default;
+$mainBG2: #333 !default;
+$backdrop:#222 !default;
+$bgBrightness: rgba(0,0,0,0.5) !default;
+$borderColour: #555 !default;
+
+$mainAccent: #a534ff !default;
+$scrollBars: #80808080 !default;
+$unread: #801598 !default;
+
+$homeIcon: url('https://i.imgur.com/WO3IfbO.png') !default;
+
+$chatTxtColour: #ddd !default;
+$fontSize: .9375rem !default;
+$font: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif !default;
+
+$hlBG: rgba(0, 0, 0, 0.8) !default;
+$hlColour: #a534ff !default;
+
+$allRound: 0px !default;
+
+$sGlow: 0px 1.5px !default;
+$online: #43b581 !default;
+$offline: #747f8d !default;
+$idle: #faa61a !default;
+$stream: #593695 !default;
+$dnd: #f04747 !default;
+$invis: #1a36fa !default;
+
+$size1: 50px !default;
+$margin1: 0px !default;
+$margin2: 0px !default;
+$compact: 15 !default;
+
+$btnColour: #bbb !default;
+$msgColour: #fff !default;
+$hideAll: block !default;
+
+:root {
+
+    --mainBG: #{$mainBG}; /* Main background colours */
+    --mainBG2: #{$mainBG2}; /* Secondary background colours */
+    --backdrop: #{$backdrop}; /* Backdrop/background transparency/colour. Not same as above. */
+    --bgBrightness: #{$bgBrightness}; /* Brightness when using a wallpaper */
+    --borderColour: #{$borderColour};
+
+    --mainAccent: #{$mainAccent};
+    --scrollBars: #{$scrollBars};
+    --unread: #{$unread};  /* All unread notifs colour */
+
+    --homeIcon: #{$homeIcon};
+
+    --chatTxtColour: #{$chatTxtColour};
+    --fontSize: #{$fontSize};
+    --font: #{$font};
+
+    --hlBG: #{$hlBG};   /* Highlight background */
+    --hlColour: #{$hlColour};
+
+    --allRound: #{$allRound};   /* All roundness 0-30px, 50px max */
+
+    /* Glow Status */
+    --round: #{$allRound};
+    --sGlow: #{$sGlow};
+
+    --online: #{$online};
+    --offline: #{$offline};
+    --idle: #{$idle};
+    --stream: #{$stream};
+    --dnd: #{$dnd};
+    --invis: #{$invis};
+
+    --spRound: #{$allRound};
+    --spRound2: #{$allRound};
+
+    /* Chat Avatars */
+	--size1: #{$size1};
+	--round1: #{$allRound};
+	--margin1: #{$margin1}; 
+	--margin2: #{$margin2};
+	--compact: #{$compact}px; 
+
+    /* Blocked Msgs */
+	--btnBg: #{$mainBG2};
+    --btnColour: #{$btnColour};
+    --btnBorder: #{$borderColour};
+    
+    --msgBg: #{$mainBG2};
+    --msgColour: #{$msgColour};
+    --msgBorder: #{$borderColour};
+
+    --hideAll: #{$hideAll};
+
+}

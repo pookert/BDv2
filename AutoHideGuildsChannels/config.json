@@ -1,0 +1,124 @@
+{
+	"info": {
+		"name": "Auto-Hide Guilds & Channels",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Auto hides guilds and channels with sidebar to hover and expand for both.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "guildBarSize",
+					"type": "number",
+					"value": "10",
+					"text": "Guild Bar Size",
+					"hint": ""
+				},
+				{
+					"id": "channelBarSize",
+					"type": "number",
+					"value": "10",
+					"text": "Channel Bar Size",
+					"hint": ""
+				},
+				{
+					"id": "guildBar",
+					"type": "colour",
+					"value": "#6b00c7",
+					"text": "Guild Bar Colour",
+					"hint": ""
+				},
+				{
+					"id": "channelBar",
+					"type": "colour",
+					"value": "#00d0ff",
+					"text": "Channel Bar Colour",
+					"hint": ""
+				},
+				{
+					"id": "guildsSpeed",
+					"type": "text",
+					"value": "400ms",
+					"text": "Guild Speed",
+					"hint": ""
+				},
+				{
+					"id": "channelsSpeed",
+					"type": "text",
+					"value": "400ms",
+					"text": "Channels Speed",
+					"hint": ""
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to default",
+			"icon_path": "Assets/defaultBlank.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "guildBarSize",
+							"type": "number",
+							"value": "10",
+							"text": "Guild Bar Size",
+							"hint": ""
+						},
+						{
+							"id": "channelBarSize",
+							"type": "number",
+							"value": "10",
+							"text": "Channel Bar Size",
+							"hint": ""
+						},
+						{
+							"id": "guildBar",
+							"type": "colour",
+							"value": "#6b00c7",
+							"text": "Guild Bar Colour",
+							"hint": ""
+						},
+						{
+							"id": "channelBar",
+							"type": "colour",
+							"value": "#00d0ff",
+							"text": "Channel Bar Colour",
+							"hint": ""
+						},
+						{
+							"id": "guildsSpeed",
+							"type": "text",
+							"value": "400ms",
+							"text": "Guild Speed",
+							"hint": ""
+						},
+						{
+							"id": "channelsSpeed",
+							"type": "text",
+							"value": "400ms",
+							"text": "Channels Speed",
+							"hint": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

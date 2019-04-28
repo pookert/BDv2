@@ -1,0 +1,11 @@
+@import 'beautifulCategories';
+@import 'glowStatus';
+@import 'customChatAvatars';
+
+$beautifulCategories: false !default;
+$glowStatus: true !default;
+$customChatAvatars: true !default;
+
+@if $beautifulCategories == true {@include beautifulCategories;}
+@if $glowStatus == true {@include glowStatus;}
+@if $customChatAvatars == true {@include customChatAvatars;}

@@ -1,0 +1,170 @@
+$brightness: rgba(0, 0, 0, 0.8) !default;
+$bgLayer: 0.01 !default;
+$settings: rgba(0, 0, 0, 0.7) !default;
+$WP1: !default;
+$WP2: !default;
+$bgBlur:  !default;							
+$bgOpacity: 0.6 !default;						
+$winRad: 4 !default;
+
+$accent: rgba(0, 192, 255, 0.7) !default;
+$border: rgba(0, 192, 255, 0.7) !default;	
+$gSelect:5px 2px rgba(255, 178, 0, 0.7) !default;
+$gUnread: 5px 1px !default;
+$unread: rgba(0, 192, 255, 0.8) !default;
+$sb: rgba(0, 192, 255, 0.2) !default;	
+
+$size1: 60px !default;
+$round: 30% !default;
+$round1: $round !default;
+$margin1: 0px !default;
+$margin2: 0px !default;
+$compact: 15 !default;
+
+$font: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif !default;
+$fontsize: .92em !default;
+$textcolor: #fff !default;
+
+$profileRadius: 5 !default;
+$rolesRadius: 6px !default;
+$color: #fff !default;
+
+$setWidth2: 75% !default;
+$setHeight2: 85% !default;
+
+$cbBG: rgba(0, 0, 0, 0.5) !default;
+$mainColour:rgba(0, 0, 0, 0.5) !default;
+$slColour: rgb(0, 0, 0) !default;
+
+$mc: $accent !default;
+$sc: $accent !default;
+$bc1: $accent !default;
+$bg1: rgba(0,0,0, .7) !default;
+
+$sGlow: 5px 2px !default;
+
+$online: #00ff8b !default;
+$offline: #747f8d !default;
+$idle: #faa61a !default;
+$stream: #593695 !default;
+$dnd: #f04747 !default;
+$invis: #1a36fa !default;
+
+$sPickerOnlineBGColour: #43b581 !default;
+$sPickerIdleBGColour: #faa61a !default;
+$sPickerDNDBGColour: #f04747 !default;
+$sPickerInviBGColour: #1a36fa !default;
+
+$sPickerOnlineBGIcon: url('Assets/online.svg') !default;
+$sPickerIdleBGIcon: url('Assets/idle.svg') !default;
+$sPickerDNDBGIcon:url('Assets/dnd.svg') !default;
+$sPickerInviBGIcon: url('Assets/invis.svg') !default;
+
+$ssColourInvite: #7289da !default;
+$ssColourServerSettings: #046d94 !default;
+$ssColourCreateChannel: #daa520 !default;
+$ssColourCreateCategory: #751e5f !default;
+$ssColourNotification: #157563 !default;
+$ssColourPrivacy: #497388 !default;
+$ssColourNickname: #714484 !default;
+$ssColourHidden: #cc6699 !default;
+$ssColourLeave: #f04747 !default;
+	
+$ssIconInvite: url('Assets/online.svg') !default;
+$ssIconServerSettings: url('Assets/setting.svg') !default;
+$ssIconCreateChannel: url('Assets/channel.svg') !default;
+$ssIconCreateCategory: url('Assets/category.svg') !default;
+$ssIconNotification: url('Assets/notif.svg') !default;
+$ssIconPrivacy: url('Assets/privacy.svg') !default;
+$ssIconNickname: url('Assets/nickname.svg') !default;
+$ssIconHiddenIsHidden: url('Assets/hidden.svg') !default;
+$ssIconHiddenIsShown: url('Assets/shown.svg') !default;
+$ssIconLeave: url('Assets/leave.svg') !default;
+
+
+:root {
+	--WP1: #{$WP1};
+	--WP2: #{$WP2};
+    --brightness: #{$brightness} ;		/* Main theme brightness / background colour */
+    --bgLayer: #{$bgLayer} ;			/* Adds a layer for use with wallpapers. Adjust the 4th number(alpha) for brightness. 1 = black, 0 = transparent */ 
+    --settings: #{$settings} ;		/* Settings menu transparency */
+
+    --bgBlur: #{$bgBlur};								/* Optional blur effect for secondary wallpaper. */
+	--bgOpacity: #{$bgOpacity};							/* Opacity on the secondary wallpaper. */
+
+	--winRad: #{$winRad}px;								/* Discord window radius/roundness */
+
+    --accent: #{$accent} ;		/* Main theme accent colours */
+    --border: #{$border} ;		/* Border Colour */
+    --gSelect: #{$gSelect};	/* Currently selected guild colour. 5px 2px Default */ 
+	--gUnread: #{$gUnread};          /* Guilds Unread 3px 2px default. (Glow, Spread) */
+    --unread: #{$unread};		/* Unread messages colour */
+	--sb: 	  #{$sb} ;		/* Scrollbars. */
+
+    --round: #{$round}; 							/* 0% Square, 50% Circle Pfps/Guilds*/
+
+    --font: #{$font} ;	/* Discord default font - Whitney,Helvetica Neue,Helvetica,Arial,sans-serif */
+    --fontsize: #{$fontsize};
+    --textcolor: #{$textcolor};					/* Chat text colour */
+
+    --profileRadius: #{$profileRadius};			/* User popout profiles. 0 is normal squared edges. Up to 50px for rounded profiles. */
+    --rolesRadius: #{$rolesRadius};      /* Roles roundness */
+	--color: #{$color};				/* PFP Name colour */
+
+	--setWidth2: #{$setWidth2} ;		/* Settings width */
+	--setHeight2: #{$setHeight2};		/* Settings height */
+
+	--size1: #{$size1};
+	--round1: #{$round1};
+	--margin1: #{$margin1}; 
+	--margin2: #{$margin2};
+	--compact: #{$compact}px; 
+
+	/* CodeBlocks */
+	--cbBG: #{$cbBG};			/* Main background colour */
+	--mainColour:#{$mainColour};	/* Main line colour */
+	--slColour: #{$slColour};			/* Secondary line colour */
+
+	/* GlowStatus */
+    --sGlow: #{$sGlow};	/* Blur/Thickness Default: 5px 2px */
+
+    --online: #{$online};		/* Status Colours */
+    --offline: #{$offline};
+    --idle: #{$idle};
+    --stream: #{$stream};
+    --dnd: #{$dnd};
+    --invis: #{$invis};
+
+	/* Uri's FullScreen Status */
+    --sPickerOnlineBGColour: #{$sPickerOnlineBGColour};
+    --sPickerIdleBGColour: #{$sPickerIdleBGColour};
+    --sPickerDNDBGColour: #{$sPickerDNDBGColour};
+    --sPickerInviBGColour: #{$sPickerInviBGColour};
+
+    --sPickerOnlineBGIcon: #{$sPickerOnlineBGIcon};
+    --sPickerIdleBGIcon: #{$sPickerIdleBGIcon};
+    --sPickerDNDBGIcon: #{$sPickerDNDBGIcon};
+    --sPickerInviBGIcon: #{$sPickerInviBGIcon};
+
+	/* Uri's ServerSettings Menu*/
+    --ssColourInvite: #{$ssColourInvite};
+	--ssColourServerSettings: #{$ssColourServerSettings};
+	--ssColourCreateChannel: #{$ssColourCreateChannel};
+	--ssColourCreateCategory: #{$ssColourCreateCategory};
+	--ssColourNotification: #{$ssColourNotification};
+	--ssColourPrivacy: #{$ssColourPrivacy};
+	--ssColourNickname: #{$ssColourNickname};
+	--ssColourHidden: #{$ssColourHidden};
+	--ssColourLeave: #{$ssColourLeave};
+	
+	--ssIconInvite: #{$ssIconInvite};
+	--ssIconServerSettings: #{$ssIconServerSettings};
+	--ssIconCreateChannel: #{$ssIconCreateChannel};
+	--ssIconCreateCategory: #{$ssIconCreateCategory};
+	--ssIconNotification: #{$ssIconNotification};
+	--ssIconPrivacy: #{$ssIconPrivacy};
+	--ssIconNickname: #{$ssIconNickname};
+	--ssIconHiddenIsHidden: #{$ssIconHiddenIsHidden};
+	--ssIconHiddenIsShown: #{$ssIconHiddenIsShown};
+	--ssIconLeave: #{$ssIconLeave};
+}

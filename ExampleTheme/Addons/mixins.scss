@@ -1,0 +1,8 @@
+@import 'glowStatus';
+@import 'customChatAvatars';
+
+$glowStatus: false !default;
+$customChatAvatars: false !default;
+
+@if $glowStatus == true {@include glowStatus;}
+@if $customChatAvatars == true {@include customChatAvatars;}

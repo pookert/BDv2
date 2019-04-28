@@ -1,0 +1,10 @@
+$autoHideMembers: true !default;
+$memberBarColour: #f00 !default;
+$memberSpeed: 500ms !default;
+$memberBarSize: 10 !default;
+
+:root {
+    --memberBarColour: #{$memberBarColour};
+    --memberBarSize: #{$memberBarSize}px;
+    --memberSpeed: #{$memberSpeed};
+}

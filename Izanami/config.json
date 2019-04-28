@@ -1,0 +1,520 @@
+{
+  "info": {
+    "name": "Izanami",
+    "authors": [
+      {
+        "name": "Satoru",
+        "discord_id": "135913674538745856",
+        "github_username": "Satoru8",
+        "url": "http://discord.gg/fjvwb95"
+      }
+    ],
+    "version": "2.0a",
+    "description": "A flat, clean dark theme with purple accents.\n\nSupport Server: http://discord.gg/fjvwb95",
+    "icon": "Assets/icon.svg",
+    "icon_type": "image/svg+xml",
+    "type": "sass"
+  },
+  "main": "index.scss",
+  "defaultConfig": [
+    {
+      "category": "Main Theme Colours",
+      "type": "drawer",
+      "settings": [
+        {
+          "id": "mainBG",
+          "type": "colour",
+          "value": "#222",
+          "text": "Main background colours",
+          "hint": ""
+        },
+        {
+          "id": "mainBG2",
+          "type": "colour",
+          "value": "#333",
+          "text": "Secondary background colours",
+          "hint": ""
+        },
+        {
+          "id": "backdrop",
+          "type": "colour",
+          "value": "#222",
+          "text": "Backdrop/background transparency/colour.",
+          "hint": "Should match main background"
+        },
+        {
+          "id": "bgBrightness",
+          "type": "colour",
+          "value": "rgba(0,0,0,0.5)",
+          "text": "Brighness",
+          "hint": ""
+        },
+        {
+          "id": "mainAccent",
+          "type": "colour",
+          "value": "#a534ff",
+          "text": "Main Accent Colour",
+          "hint": ""
+        },
+        {
+          "id": "unread",
+          "type": "colour",
+          "value": "#801598",
+          "text": "Unread Notifications Colour",
+          "hint": ""
+        },
+        {
+          "id": "borderColour",
+          "type": "colour",
+          "value": "#555",
+          "text": "Border Colour",
+          "hint": ""
+        },
+        {
+          "id": "scrollBars",
+          "type": "colour",
+          "value": "#80808080",
+          "text": "Scrollbars Colour",
+          "hint": ""
+        },
+        {
+          "id": "hlBG",
+          "type": "colour",
+          "value": "rgba(0, 0, 0, 0.8)",
+          "text": "Highlight background colour",
+          "hint": ""
+        },
+        {
+          "id": "hlColour",
+          "type": "colour",
+          "value": "#a534ff",
+          "text": "Highlight text colour",
+          "hint": ""
+        }
+      ]
+    },
+    {
+      "category": "Main Theme Settings",
+      "type": "drawer",
+      "settings": [
+        {
+          "id": "homeIcon",
+          "type": "text",
+          "value": "url('https://i.imgur.com/WO3IfbO.png')",
+          "text": "Custom Home Icon",
+          "hint": "Use direct images"
+        },
+        {
+          "id": "chatTextColour",
+          "type": "colour",
+          "value": "#ddd",
+          "text": "Chat Text Colour",
+          "hint": ""
+        },
+        {
+          "id": "font",
+          "type": "text",
+          "value": "Whitney,Helvetica Neue,Helvetica,Arial,sans-serif",
+          "text": "Font",
+          "hint": ""
+        },
+        {
+          "id": "fontSize",
+          "type": "text",
+          "value": ".9375rem",
+          "text": "Font Size",
+          "hint": ""
+        },
+        {
+          "id": "allRound",
+          "type": "text",
+          "value": "0px",
+          "text": "Overall theme roundness",
+          "hint": "0 to 30px, 50px max"
+        }
+      ]
+    },
+    {
+      "category": "Glow Status Settings",
+      "type": "drawer",
+      "settings": [
+        {
+          "id": "sGlow",
+          "type": "text",
+          "value": "0px 1.5px",
+          "text": "Glow/Border Style",
+          "hint": "5px 2px = default.  0px 2px for borders. 5px 0px for glow."
+        },
+        {
+          "id": "online",
+          "type": "colour",
+          "value": "#43b581",
+          "text": "Online Colour",
+          "hint": ""
+        },
+        {
+          "id": "offline",
+          "type": "colour",
+          "value": "#747f8d",
+          "text": "Offline Colour",
+          "hint": ""
+        },
+        {
+          "id": "idle",
+          "type": "colour",
+          "value": "#faa61a",
+          "text": "Idle Colour",
+          "hint": ""
+        },
+        {
+          "id": "dnd",
+          "type": "colour",
+          "value": "#f04747",
+          "text": "DnD Colour",
+          "hint": ""
+        },
+        {
+          "id": "stream",
+          "type": "colour",
+          "value": "#593695",
+          "text": "Stream Colour",
+          "hint": ""
+        },
+        {
+          "id": "invis",
+          "type": "colour",
+          "value": "#1a36fa",
+          "text": "Invisible Colour",
+          "hint": "Only you can see this."
+        }
+      ]
+    },
+    {
+      "category": "Chat Avatar Settings",
+      "type": "drawer",
+      "settings": [
+        {
+          "id": "size1",
+          "type": "text",
+          "value": "50px",
+          "text": "Avatar Size",
+          "hint": "This scales the rest of the chat with it."
+        },
+        {
+          "id": "margin1",
+          "type": "text",
+          "value": "0px",
+          "text": "Move Avatar Left/Right",
+          "hint": "-10 = 10px left, 10 would be 10px right"
+        },
+        {
+          "id": "margin2",
+          "type": "text",
+          "value": "0px",
+          "text": "Move avatar Up/Down",
+          "hint": "-10 = 10px up, 10 would be 10px down"
+        },
+        {
+          "id": "compact",
+          "type": "number",
+          "value": "10",
+          "text": "Chat message compact. Discord Default 20. Theme default 10.",
+          "hint": "5 min, max ??"
+        }
+      ]
+    },
+    {
+      "category": "Blocked Msgs Btn",
+      "type": "drawer",
+      "settings": [
+        {
+          "id": "btnColour",
+          "type": "colour",
+          "value": "#bbb",
+          "text": "Blocked Msgs Btn text colour",
+          "hint": ""
+        },
+        {
+          "id": "msgColour",
+          "type": "colour",
+          "value": "#fff",
+          "text": "Blocked Msgs colour",
+          "hint": ""
+        },
+				{
+					"id": "hideAll",
+					"type": "dropdown",
+					"value": "opt1",
+					"text": "Hide/Show",
+					"hint": "",
+					"options": [
+						{
+							"id": "opt1",
+							"text": "Show Blocked Msgs",
+							"value": "block"
+						},
+						{
+							"id": "opt2",
+							"text": "Hide Blocked Msgs",
+							"value": "none"
+						}
+					]
+				}
+      ]
+    }
+  ],
+  "configSchemes": [
+    {
+      "id": "default-scheme",
+      "name": "Reset to default",
+      "icon_path": "Assets/defaultBlank.png",
+      "settings": [
+        {
+          "category": "Main Theme Colours",
+          "type": "drawer",
+          "settings": [
+            {
+              "id": "mainBG",
+              "type": "colour",
+              "value": "#222",
+              "text": "Main background colours",
+              "hint": ""
+            },
+            {
+              "id": "mainBG2",
+              "type": "colour",
+              "value": "#333",
+              "text": "Secondary background colours",
+              "hint": ""
+            },
+            {
+              "id": "backdrop",
+              "type": "colour",
+              "value": "#222",
+              "text": "Backdrop/background transparency/colour.",
+              "hint": "Should match main background"
+            },
+            {
+              "id": "bgBrightness",
+              "type": "colour",
+              "value": "rgba(0,0,0,0.5)",
+              "text": "Brighness",
+              "hint": ""
+            },
+            {
+              "id": "mainAccent",
+              "type": "colour",
+              "value": "#a534ff",
+              "text": "Main Accent Colour",
+              "hint": ""
+            },
+            {
+              "id": "unread",
+              "type": "colour",
+              "value": "#801598",
+              "text": "Unread Notifications Colour",
+              "hint": ""
+            },
+            {
+              "id": "borderColour",
+              "type": "colour",
+              "value": "#555",
+              "text": "Border Colour",
+              "hint": ""
+            },
+            {
+              "id": "scrollBars",
+              "type": "colour",
+              "value": "#80808080",
+              "text": "Scrollbars Colour",
+              "hint": ""
+            },
+            {
+              "id": "hlBG",
+              "type": "colour",
+              "value": "rgba(0, 0, 0, 0.8)",
+              "text": "Highlight background colour",
+              "hint": ""
+            },
+            {
+              "id": "hlColour",
+              "type": "colour",
+              "value": "#a534ff",
+              "text": "Highlight text colour",
+              "hint": ""
+            }
+          ]
+        },
+        {
+          "category": "Main Theme Settings",
+          "type": "drawer",
+          "settings": [
+            {
+              "id": "homeIcon",
+              "type": "text",
+              "value": "url('https://i.imgur.com/WO3IfbO.png')",
+              "text": "Custom Home Icon",
+              "hint": "Use direct images"
+            },
+            {
+              "id": "chatTextColour",
+              "type": "colour",
+              "value": "#ddd",
+              "text": "Chat Text Colour",
+              "hint": ""
+            },
+            {
+              "id": "font",
+              "type": "text",
+              "value": "Whitney,Helvetica Neue,Helvetica,Arial,sans-serif",
+              "text": "Font",
+              "hint": ""
+            },
+            {
+              "id": "fontSize",
+              "type": "text",
+              "value": ".9375rem",
+              "text": "Font Size",
+              "hint": ""
+            },
+            {
+              "id": "allRound",
+              "type": "text",
+              "value": "0px",
+              "text": "Overall theme roundness",
+              "hint": "0 to 30px, 50px max"
+            }
+          ]
+        },
+        {
+          "category": "Glow Status Settings",
+          "type": "drawer",
+          "settings": [
+            {
+              "id": "sGlow",
+              "type": "text",
+              "value": "0px 1.5px",
+              "text": "Glow/Border Style",
+              "hint": "5px 2px = default.  0px 2px for borders. 5px 0px for glow."
+            },
+            {
+              "id": "online",
+              "type": "colour",
+              "value": "#43b581",
+              "text": "Online Colour",
+              "hint": ""
+            },
+            {
+              "id": "offline",
+              "type": "colour",
+              "value": "#747f8d",
+              "text": "Offline Colour",
+              "hint": ""
+            },
+            {
+              "id": "idle",
+              "type": "colour",
+              "value": "#faa61a",
+              "text": "Idle Colour",
+              "hint": ""
+            },
+            {
+              "id": "dnd",
+              "type": "colour",
+              "value": "#f04747",
+              "text": "DnD Colour",
+              "hint": ""
+            },
+            {
+              "id": "stream",
+              "type": "colour",
+              "value": "#593695",
+              "text": "Stream Colour",
+              "hint": ""
+            },
+            {
+              "id": "invis",
+              "type": "colour",
+              "value": "#1a36fa",
+              "text": "Invisible Colour",
+              "hint": "Only you can see this."
+            }
+          ]
+        },
+        {
+          "category": "Chat Avatar Settings",
+          "type": "drawer",
+          "settings": [
+            {
+              "id": "size1",
+              "type": "text",
+              "value": "50px",
+              "text": "Avatar Size",
+              "hint": "This scales the rest of the chat with it."
+            },
+            {
+              "id": "margin1",
+              "type": "text",
+              "value": "0px",
+              "text": "Move Avatar Left/Right",
+              "hint": "-10 = 10px left, 10 would be 10px right"
+            },
+            {
+              "id": "margin2",
+              "type": "text",
+              "value": "0px",
+              "text": "Move avatar Up/Down",
+              "hint": "-10 = 10px up, 10 would be 10px down"
+            },
+            {
+              "id": "compact",
+              "type": "number",
+              "value": "10",
+              "text": "Chat message compact. Discord Default 20. Theme default 10.",
+              "hint": "5 min, max ??"
+            }
+          ]
+        },
+        {
+          "category": "Blocked Msgs Btn",
+          "type": "drawer",
+          "settings": [
+            {
+              "id": "btnColour",
+              "type": "colour",
+              "value": "#bbb",
+              "text": "Blocked Msgs Btn text colour",
+              "hint": ""
+            },
+            {
+              "id": "msgColour",
+              "type": "colour",
+              "value": "#fff",
+              "text": "Blocked Msgs colour",
+              "hint": ""
+            },
+            {
+              "id": "hideAll",
+              "type": "dropdown",
+              "value": "opt1",
+              "text": "Hide/Show",
+              "hint": "",
+              "options": [
+                {
+                  "id": "opt1",
+                  "text": "Show Blocked Msgs",
+                  "value": "block"
+                },
+                {
+                  "id": "opt2",
+                  "text": "Hide Blocked Msgs",
+                  "value": "none"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

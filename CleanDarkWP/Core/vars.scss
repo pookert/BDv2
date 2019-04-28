@@ -1,0 +1,62 @@
+$background: url(https://images6.alphacoders.com/880/880825.png) center/cover no-repeat !default;
+$light: rgba(0, 0, 0, 0.5);
+$mc: rgba(0, 208, 255, 0.3) !default;
+$sc: rgba(0, 208, 255, 0.8) !default;
+$textColour: #ccc !default;
+$homeIcon: url('https://rawgit.com/satoru8/Icons/master/homewhite.svg') !default;
+$font: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif !default;
+$fontSize: 13px !default;
+$sb:rgba(53, 149, 255, .3) !default;
+$border: rgba(16, 101, 186, 0.41) !default;
+
+$round: 50% !default;
+$sGlow: 5px 2px !default;
+$online: #43b581 !default;
+$offline: #747f8d !default;
+$idle: #faa61a !default;
+$stream: #593695 !default;
+$dnd: #f04747 !default;
+$invis: #1a36fa !default;
+$profileRadius: 0 !default;
+$rolesRadius: 6px !default;
+$textColor: #fff !default;
+$sPickerItemBGColour: rgba(0, 0, 0, .5) !default;
+$sPickerOnlineBGColour: #43b581 !default;
+$sPickerIdleBGColour: #faa61a !default;
+$sPickerDNDBGColour: #f04747 !default;
+$sPickerInviBGColour: #1a36fa !default;
+
+:root {
+
+    --light: #{$light};
+    --mc: #{$mc};
+    --sc: #{$sc};
+    --textColour: #{$textColour};
+    --homeIcon: #{$homeIcon};
+    --font: #{$font};
+    --fontSize: #{$fontSize};
+    --sb:#{$sb};
+    --border: #{$border};
+    
+    --round: #{$round};
+    --sGlow: #{$sGlow};
+
+    --online: #{$online};
+    --offline: #{$offline};
+    --idle: #{$idle};
+    --stream: #{$stream};
+    --dnd: #{$dnd};
+	--invis: #{$invis};
+	
+	--profileRadius: #{$profileRadius};
+    --rolesRadius: #{$rolesRadius};
+	--textColor: #{$textColor};
+
+	--sPickerItemBGColour: #{$sPickerItemBGColour};
+
+    --sPickerOnlineBGColour: #{$sPickerOnlineBGColour};
+    --sPickerIdleBGColour: #{$sPickerIdleBGColour};
+    --sPickerDNDBGColour: #{$sPickerDNDBGColour};
+    --sPickerInviBGColour: #{$sPickerInviBGColour};
+	
+}

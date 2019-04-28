@@ -1,0 +1,96 @@
+{
+	"info": {
+		"name": "Custom User Settings",
+		"authors": [
+			{
+				"name": "Satoru",
+				"discord_id": "135913674538745856",
+				"github_username": "Satoru8",
+				"url": "http://discord.gg/fjvwb95"
+			}
+		],
+		"version": "2.0a",
+		"description": "Changes the user settings into a smaller popout window.\n\nSupport Server: http://discord.gg/fjvwb95",
+		"icon": "Assets/icon.svg",
+		"icon_type": "image/svg+xml",
+		"type": "sass"
+	},
+	"main": "index.scss",
+	"defaultConfig": [
+		{
+			"category": "default",
+			"settings": [
+				{
+					"id": "sBackdrop2",
+					"type": "color",
+					"value": "rgba(0, 0, 0, 0.6)",
+					"text": "Backdrop Transparency/Colour",
+					"hint": ""
+				},
+				{
+					"id": "sWidth2",
+					"type": "text",
+					"value": "70%",
+					"text": "Settings Width",
+					"hint": ""
+				},
+				{
+					"id": "sHeight2",
+					"type": "text",
+					"value": "90%",
+					"text": "Settings Height",
+					"hint": ""
+				},
+				{
+					"id": "sRadius2",
+					"type": "text",
+					"value": "6px",
+					"text": "Settings Radius",
+					"hint": ""
+				}
+			]
+		}
+	],
+	"configSchemes": [
+		{
+			"id": "default-scheme",
+			"name": "Reset to default",
+			"icon_path": "Assets/defaultBlank.png",
+			"settings": [
+				{
+					"category": "default",
+					"settings": [
+						{
+							"id": "sBackdrop2",
+							"type": "color",
+							"value": "rgba(0, 0, 0, 0.6)",
+							"text": "Backdrop Transparency/Colour",
+							"hint": ""
+						},
+						{
+							"id": "sWidth2",
+							"type": "text",
+							"value": "70%",
+							"text": "Settings Width",
+							"hint": ""
+						},
+						{
+							"id": "sHeight2",
+							"type": "text",
+							"value": "90%",
+							"text": "Settings Height",
+							"hint": ""
+						},
+						{
+							"id": "sRadius2",
+							"type": "text",
+							"value": "6px",
+							"text": "Settings Radius",
+							"hint": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

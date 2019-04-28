@@ -1,0 +1,20 @@
+$mc: rgba(0, 185, 255, 0.8) !default;
+$sc: rgba(0, 185, 255, 0.8) !default;
+$online: #43b581 !default;
+$offline: #747f8d !default;
+$idle: #faa61a !default;
+$stream: #593695 !default;
+$dnd: #f04747 !default;
+$invis: #1a36fa !default;
+$friendsRestyle: true !default;
+
+:root {
+    --mc: #{$mc};
+    --sc: #{$sc}; 
+    --online: #{$online};
+    --offline: #{$offline};
+    --idle: #{$idle};
+    --stream: #{$stream};
+    --dnd: #{$dnd};
+    --invis: #{$invis};
+}

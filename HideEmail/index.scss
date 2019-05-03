@@ -1,3 +1,0 @@
-@import 'Core/vars';
-@import 'Core/hideEmail';
-@if $hideEmail == true {@include hideEmail;}

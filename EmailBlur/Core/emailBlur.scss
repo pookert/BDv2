@@ -3,11 +3,11 @@
 	.standardSidebarView-3F1I7i {
 		.payment-info {
 			.description-3_Ncsb {
-				transition: all var(--blurSpeed) cubic-bezier(0.550, 0.085, 0.680, 0.530);
+				transition: all var(--blurSpeed) cubic-bezier(.550, .085, .680, .530);
 				filter: blur(4px);
 				opacity: var(--blurOpacity);
 				&:hover {
-					transition: all var(--blurSpeed) cubic-bezier(0.55, 0.09, 0.68, 0.53);
+					transition: all var(--blurSpeed) cubic-bezier(.550, .085, .680, .530);
 					filter: none;
 					opacity: var(--blurOpacity);
 				}
@@ -15,11 +15,11 @@
 		}
 		.paymentSourceRow-3FbcL_ {
 			.subText-V8PTt8 {
-				transition: all var(--blurSpeed) cubic-bezier(0.550, 0.085, 0.680, 0.530);
+				transition: all var(--blurSpeed) cubic-bezier(.550, .085, .680, .530);
 				filter: blur(4px);
 				opacity: var(--blurOpacity);
 				&:hover {
-					transition: all var(--blurSpeed) cubic-bezier(0.55, 0.09, 0.68, 0.53);
+					transition: all var(--blurSpeed) cubic-bezier(.550, .085, .680, .530);
 					filter: none;
 					opacity: var(--blurOpacity);
 				}
@@ -31,11 +31,11 @@
 					>div {
 						&:nth-child(2) {
 							>.viewBody-2Qz-jg {
-								transition: all var(--blurSpeed) cubic-bezier(0.550, 0.085, 0.680, 0.530);
+								transition: all var(--blurSpeed) cubic-bezier(.550, .085, .680, .530);
 								filter: blur(4px);
 								opacity: var(--blurOpacity);
 								&:hover {
-									transition: all var(--blurSpeed) cubic-bezier(0.55, 0.09, 0.68, 0.53);
+									transition: all var(--blurSpeed) cubic-bezier(.550, .085, .680, .530);
 									filter: none;
 									opacity: var(--blurOpacity);
 								}
